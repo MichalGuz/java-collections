@@ -10,9 +10,18 @@ public class Average {
             values[i] = basic++;
             System.out.println("Array element values[" + i + "] = " + values[i]);
         }
-       double sum = values[0] + values[1] + values[2] + values[3] + values[4] + values[5] + values[6] + values[7] + values[8] + values[9] + + values[10] + values[11] + values[12] + values[13] + values[14] + values[15] + values[16] + values[17] + values[18] + values[19];
-       double average = sum / values.length;
-       System.out.println("The sum of values is: " + sum);
-       System.out.println("The average of values in an array is: " + average);
+
+        double sum = 0;
+        for(int s = 0; s < values.length; s++ ) {
+            double element = 0;
+            element += values[s];
+            sum += element;
+
+            System.out.println("Growing sum of values = " + sum);
+        }
+
+        double average = sum / values.length;
+        System.out.println("The sum of values is: " + sum);
+        System.out.println("The average of values in an array is: " + average);
     }
 }
