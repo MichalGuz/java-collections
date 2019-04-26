@@ -1,9 +1,11 @@
 package lists;
 
-import java.util.ArrayList;
+
+import java.util.*;
 
 public class Incomes {
-    public static void main(String[] args) {
+
+    public void incomeProcess() {
         ArrayList<Integer> incomes = new ArrayList<>();
         incomes.add(2000);
         incomes.add(1500);
@@ -32,5 +34,5 @@ public class Incomes {
         }
         double average = (totalIncomes - max - min) / (incomes.size() - 2);
         System.out.println("The average of incomes = " + average);
-     }
+    }
 }
