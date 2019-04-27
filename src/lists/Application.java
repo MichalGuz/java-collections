@@ -7,5 +7,8 @@ public class Application {
         Incomes incomes = new Incomes();
         incomes.incomeProcess();
 
+        LastRemoved lastRemoved = new LastRemoved();
+        lastRemoved.lastRemovedProcess();
+
     }
 }
