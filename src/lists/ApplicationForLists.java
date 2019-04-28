@@ -1,6 +1,6 @@
 package lists;
 
-public class Application {
+public class ApplicationForLists {
     public static void main(String[] args) {
         Incomes incomes = new Incomes();
         incomes.incomeProcess();
