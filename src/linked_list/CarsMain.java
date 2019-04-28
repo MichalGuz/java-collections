@@ -1,4 +1,4 @@
-package lists_cars;
+package linked_list;
 import java.util.LinkedList;
 import java.util.List;
 

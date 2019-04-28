@@ -1,4 +1,4 @@
-package lists_cars;
+package linked_list;
 
 public class Cars {
     String brand;
