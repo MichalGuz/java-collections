@@ -1,6 +1,5 @@
 package lists;
 
-
 import java.util.*;
 
 public class Incomes {
@@ -33,6 +32,6 @@ public class Incomes {
             totalIncomes += incomes.get(i);
         }
         double average = (totalIncomes - max - min) / (incomes.size() - 2);
-        System.out.println("The average of incomes = " + average);
+        System.out.println("The table_average of incomes = " + average);
     }
 }

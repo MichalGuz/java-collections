@@ -1,4 +1,4 @@
-package average;
+package table_average;
 
 import java.lang.*;
 
@@ -22,6 +22,6 @@ public class Average {
 
         double average = sum / values.length;
         System.out.println("The sum of values is: " + sum);
-        System.out.println("The average of values in an array is: " + average);
+        System.out.println("The table_average of values in an array is: " + average);
     }
 }
