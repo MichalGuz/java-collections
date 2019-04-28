@@ -4,18 +4,22 @@ public class Customer {
     String name;
     String adress;
     String regonId;
+    String customerId;
 
-    public Customer(String name, String adress, String regonId) {
+    public Customer(String name, String adress, String regonId, String customerId) {
         this.name = name;
         this.adress = adress;
         this.regonId = regonId;
+        this.customerId = customerId
     }
 
     @Override
     public boolean equals (Object o){
         final Customer c = (Customer) o;
-        return this.name.equals(c.name) && this.adress.equals(c.adress) && this.regonId.equals(c.regonId);
+        return this.name.equals(c.name) && this.adress.equals(c.adress) && this.regonId.equals(c.regonId) && this.customerId.equals(c.customerId);
     }
+
+
 
 
 }
