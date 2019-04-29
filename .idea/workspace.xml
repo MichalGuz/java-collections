@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/equals_object/NetUserProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/equals_object/NetUserProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -189,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Average">
+  <component name="RunManager" selected="Application.NetUserProcessor">
     <configuration name="ApplicationForLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lists.ApplicationForLists" />
       <module name="java-collections" />
@@ -232,13 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleLoopFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop_for.SimpleLoopFor" />
+    <configuration name="NetUserProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="equals_object.NetUserProcessor" />
       <module name="java-collections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop_for.*" />
+          <option name="PATTERN" value="equals_object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetUserProcessor" />
         <item itemvalue="Application.Average" />
         <item itemvalue="Application.ApplicationForLists" />
         <item itemvalue="Application.CarsMain" />
         <item itemvalue="Application.SimpleWrapper" />
-        <item itemvalue="Application.SimpleLoopFor" />
       </list>
     </recent_temporary>
   </component>
@@ -449,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/equals_object/NetUserProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
