@@ -10,7 +10,7 @@ public class Customer {
         this.name = name;
         this.adress = adress;
         this.regonId = regonId;
-        this.customerId = customerId
+        this.customerId = customerId;
     }
 
     @Override
@@ -24,6 +24,7 @@ public class Customer {
     }
 
     public String toString() {
+
         return name + " " + adress + " " + regonId;
     }
 }
