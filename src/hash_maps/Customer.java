@@ -13,6 +13,7 @@ public class Customer {
         this.customerId = customerId;
     }
 
+    //customization method equals(), searching for double object in collection
     @Override
     public boolean equals (Object o){
         final Customer c = (Customer) o;
