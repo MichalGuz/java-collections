@@ -12,4 +12,9 @@ public class NetUserEvo {
         this.login = login;
         this.numberId = numberId;
     }
+
+    public boolean equals(Object o) {
+        final NetUserEvo n = (NetUserEvo) o;
+        return this.name.equals(n.name) && this.nick.equals(n.nick) && this.login.equals(n.login) && this.numberId.equals(n.numberId);
+    }
 }
