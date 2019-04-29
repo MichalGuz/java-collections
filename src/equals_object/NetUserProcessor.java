@@ -19,6 +19,7 @@ public class NetUserProcessor{
         NetUserEvo user14 = new NetUserEvo("Marc", "marco", "marcopolo", "029314" );
         NetUserEvo user15 = new NetUserEvo("Igor", "iggy", "iggy1", "029311" );
 
+        //method equal() finds double objects
         System.out.println("user11 == user12: " + (user11.equals(user12)));
         System.out.println("user13 == user14: " + (user13.equals(user14)));
         System.out.println("user11 == user15: " + (user11.equals(user15)));
