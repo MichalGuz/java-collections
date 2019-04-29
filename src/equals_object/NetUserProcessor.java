@@ -13,11 +13,14 @@ public class NetUserProcessor{
         System.out.println("user3 == user4: " + (user3 == user4));
         System.out.println("user1 == user5: " + (user1 == user5));
 
-        NetUserEvo user11 = new NetUserEvo("John", "jj", "johny99", "029300" );
-        NetUserEvo user12 = new NetUserEvo("Jim", "jimmy", "jimBeam", "029301" );
-        NetUserEvo user13 = new NetUserEvo("Adam", "toto", "persona", "029302" );
-        NetUserEvo user14 = new NetUserEvo("Nina", "ninoczka", "ladyn", "029303" );
-        NetUserEvo user15 = new NetUserEvo("Adam", "jj", "johny99", "029300" );
+        NetUserEvo user11 = new NetUserEvo("Igor", "iggy", "iggy1", "029311" );
+        NetUserEvo user12 = new NetUserEvo("Mia", "m16", "m16net", "029312" );
+        NetUserEvo user13 = new NetUserEvo("Lola", "loliop", "lolipop18", "029313" );
+        NetUserEvo user14 = new NetUserEvo("Marc", "marco", "marcopolo", "029314" );
+        NetUserEvo user15 = new NetUserEvo("Igor", "iggy", "iggy1", "029311" );
 
+        System.out.println("user11 == user12: " + (user11.equals(user12)));
+        System.out.println("user13 == user14: " + (user13.equals(user14)));
+        System.out.println("user11 == user15: " + (user11.equals(user15)));
     }
 }
