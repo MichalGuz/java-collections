@@ -10,4 +10,11 @@ public class Student {
         this.surname = surname;
         this.numberID = numberID;
     }
+
+    @Override
+    public boolean equals(Object o){
+        final Student s = (Student) o;
+        return this.name.equals(s.name) && this.surname.equals(s.surname) && this.numberID.equals(s.numberID);
+    }
+
 }
