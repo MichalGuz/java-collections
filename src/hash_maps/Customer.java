@@ -22,7 +22,7 @@ public class Customer {
 
     //implementation of method for hashMap's buckets
     public int hashCode(){
-        return Integer.parseInt(customerId.substring(0,3));
+        return Integer.parseInt(customerId.substring(0,2));
     }
 
     public String toString() {
