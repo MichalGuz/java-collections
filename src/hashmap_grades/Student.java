@@ -21,5 +21,7 @@ public class Student {
         return Integer.parseInt(numberID.substring(0,1));
     }
 
-
+    public String toString() {
+        return name + " " + surname + " ID number: " + numberID;
+    }
 }
