@@ -20,10 +20,5 @@ public class OrderProcessor {
         collection.put(customer2, order2);
         collection.put(customer3, order3);
         collection.put(customer4, order4);
-
-
-        )
-
-
     }
 }
