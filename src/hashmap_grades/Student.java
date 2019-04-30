@@ -17,4 +17,9 @@ public class Student {
         return this.name.equals(s.name) && this.surname.equals(s.surname) && this.numberID.equals(s.numberID);
     }
 
+    public int hashCode() {
+        return Integer.parseInt(numberID.substring(0,1));
+    }
+
+
 }
