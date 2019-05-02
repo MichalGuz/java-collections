@@ -3,7 +3,7 @@ package hash_maps;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OrderProcessor {
+public class MapOfContacts {
     public static void main (String[] args) {
         Customer customer1 = new Customer("Trade Int. sp z o.o.", "Warszawa", "457688821", "31-0114" );
         Customer customer2 = new Customer("Jarex sp z o.o.", "Warszawa", "555848861", "31-0023");
