@@ -25,7 +25,8 @@ public class Customer {
         return Integer.parseInt(customerId.substring(0,2));
     }
 
-    public String toString() {
-        return name + " " + adress + " " + regonId;
+    // method for displaying the results as a text in console instead hashcodes of objects
+    public String toString(){
+        return name + " from: "+ adress + "; regon number: " + regonId + "; customer's ID: " + customerId + ";";
     }
 }

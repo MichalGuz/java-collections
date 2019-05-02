@@ -25,9 +25,7 @@ public class MapOfContacts {
         collection.put(customer5, contact5);
 
         for(Map.Entry<Customer, Contact> entry: collection.entrySet()) {
-            System.out.println("Customer " + entry.getKey() + " contact numbers: " + entry.getValue());
+            System.out.println("Customer: " + entry.getKey() + " contact numbers: " + entry.getValue());
         }
-
-
     }
 }
