@@ -1,11 +1,11 @@
 package hash_maps;
 
-public class Order {
+public class Contact {
     Double product1;
     Double product2;
     Double product3;
 
-    public Order(Double product1, Double product2, Double product3){
+    public Contact(Double product1, Double product2, Double product3){
         this.product1 = product1;
         this.product2 = product2;
         this.product3 = product3;

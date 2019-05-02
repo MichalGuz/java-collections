@@ -1,6 +1,7 @@
 package hash_maps;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class OrderProcessor {
     public static void main (String[] args) {
@@ -10,15 +11,23 @@ public class OrderProcessor {
         Customer customer4 = new Customer("Kowalski Instalacje", "Szczecin", "834164173", "70-0004" );
         Customer customer5 = new Customer("ZTD Poznań", "Poznań", "794375601", "60-0024" );
 
-        Order order1= new Order(1000.0, 400.0, 0.0);
-        Order order2= new Order(0.0, 450.0, 20.0);
-        Order order3= new Order(0.0, 0.0, 100.0);
-        Order order4= new Order(1500.0, 5000.0, 600.0);
+        Contact contact1 = new Contact(1000.0, 400.0, 0.0);
+        Contact contact2 = new Contact(0.0, 450.0, 20.0);
+        Contact contact3 = new Contact(0.0, 0.0, 100.0);
+        Contact contact4 = new Contact(1500.0, 5000.0, 600.0);
+        Contact contact5 = new Contact(0.0, 200.0, 300.0);
 
-        HashMap<Customer, Order> collection = new HashMap<Customer, Order>();
-        collection.put(customer1, order1);
-        collection.put(customer2, order2);
-        collection.put(customer3, order3);
-        collection.put(customer4, order4);
+        HashMap<Customer, Contact> collection = new HashMap<Customer, Contact>();
+        collection.put(customer1, contact1);
+        collection.put(customer2, contact2);
+        collection.put(customer3, contact3);
+        collection.put(customer4, contact4);
+        collection.put(customer5, contact5);
+
+        for(Map.Entry<Customer, Contact> entry: collection.entrySet()) {
+            System.out.println("Customer " + entry.getKey() + " ordered");
+        }
+
+
     }
 }
