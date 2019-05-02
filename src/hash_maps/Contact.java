@@ -12,6 +12,6 @@ public class Contact {
     }
 
    public String toString() {
-        return contact1 + " + " + contact2 + " + " + contact3;
+        return contact1 + "; " + contact2 + ";  " + contact3 + ";";
     }
 }
