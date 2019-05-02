@@ -11,7 +11,7 @@ public class Contact {
         this.contact3 = contact3;
     }
 
-   // public String toString() {        return contact1 + " + " + contact2 + " + " + contact3;    }
-
-
+   public String toString() {
+        return contact1 + " + " + contact2 + " + " + contact3;
+    }
 }
