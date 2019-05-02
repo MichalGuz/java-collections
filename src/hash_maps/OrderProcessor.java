@@ -11,11 +11,11 @@ public class OrderProcessor {
         Customer customer4 = new Customer("Kowalski Instalacje", "Szczecin", "834164173", "70-0004" );
         Customer customer5 = new Customer("ZTD Poznań", "Poznań", "794375601", "60-0024" );
 
-        Contact contact1 = new Contact(1000.0, 400.0, 0.0);
-        Contact contact2 = new Contact(0.0, 450.0, 20.0);
-        Contact contact3 = new Contact(0.0, 0.0, 100.0);
-        Contact contact4 = new Contact(1500.0, 5000.0, 600.0);
-        Contact contact5 = new Contact(0.0, 200.0, 300.0);
+        Contact contact1 = new Contact("224599023", "606400345", "-");
+        Contact contact2 = new Contact("223442332", "509433782", "502305457");
+        Contact contact3 = new Contact("121579672", "676544312", "676544309");
+        Contact contact4 = new Contact( "670532431", "670532430", "-");
+        Contact contact5 = new Contact( "512614514", "-", "-");
 
         HashMap<Customer, Contact> collection = new HashMap<Customer, Contact>();
         collection.put(customer1, contact1);
@@ -25,7 +25,7 @@ public class OrderProcessor {
         collection.put(customer5, contact5);
 
         for(Map.Entry<Customer, Contact> entry: collection.entrySet()) {
-            System.out.println("Customer " + entry.getKey() + " ordered");
+            System.out.println("Customer " + entry.getKey() + " contact numbers:");
         }
 
 
