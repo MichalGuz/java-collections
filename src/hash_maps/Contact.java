@@ -11,6 +11,7 @@ public class Contact {
         this.contact3 = contact3;
     }
 
+   // method for displaying the results in console instead hashcodes of objects
    public String toString() {
         return contact1 + "; " + contact2 + ";  " + contact3 + ";";
     }
