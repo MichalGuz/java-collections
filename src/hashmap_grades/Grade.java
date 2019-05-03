@@ -17,5 +17,13 @@ public class Grade {
         }
         return n;
     }
+
+    public Integer sumOfGrades() {
+        Integer s = 0;
+        for (int i = 0; i < grades.size(); i++) {
+            s += grades.get(i);
+        }
+        return s;
+    }
 }
 
