@@ -1,7 +1,5 @@
 package hashmap_grades;
 
-import com.sun.javafx.sg.prism.GrowableDataBuffer;
-
 import java.util.HashMap;
 
 public class GradesProcessor {
@@ -36,5 +34,20 @@ public class GradesProcessor {
         Grade g30 = new Grade(4,4,4,4,4,5,5,5,3,3,3,4,5,5,5);
         Grade g33 = new Grade(2,3,3,3,3,2,2,2,2,3,3,3,4,4,5);
 
+        HashMap<Student, Grade> grades = new HashMap<>();
+        grades.put(s1, g1);
+        grades.put(s2, g2);
+        grades.put(s3, g3);
+        grades.put(s4, g4);
+        grades.put(s5, g5);
+        grades.put(s6, g6);
+        grades.put(s10, g10);
+        grades.put(s11, g11);
+        grades.put(s12, g12);
+        grades.put(s20, g20);
+        grades.put(s21, g21);
+        grades.put(s22, g22);
+        grades.put(s30, g30);
+        grades.put(s33, g33);
     }
 }
