@@ -1,6 +1,7 @@
 package hashmap_grades;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class GradesProcessor {
     public static void main (String[] args) {
@@ -19,20 +20,99 @@ public class GradesProcessor {
         Student s30 = new Student("Roman","Sulima", "30");
         Student s33 = new Student("Klaudia", "Szewczyk", "33");
 
-        Grade g1 = new Grade(4,3,4,4,3,5,5,3,4,3,5,5,3,4,4);
-        Grade g2 = new Grade(3,4,4,4,4,4,2,3,4,2,3,4,5,5,5);
-        Grade g3 = new Grade(5,4,3,5,5,4,4,3,4,3,3,3,2,2,5);
-        Grade g4 = new Grade(5,5,5,5,5,5,5,5,4,5,5,5,5,5,4);
-        Grade g5 = new Grade(5,5,5,5,5,5,5,5,5,5,5,5,5,5,5);
-        Grade g6 = new Grade(4,3,4,3,4,4,3,3,3,2,4,4,4,5,5);
-        Grade g10 = new Grade(3,3,3,5,5,5,5,4,4,4,5,5,4,5,5);
-        Grade g11 = new Grade(2,2,3,3,2,4,2,2,2,4,4,4,5,5,5);
-        Grade g12 = new Grade(4,2,3,2,4,5,5,5,5,2,2,2,4,4,5);
-        Grade g20 = new Grade(3,3,4,3,5,3,4,3,2,4,4,4,5,5,5);
-        Grade g21 = new Grade(4,4,3,4,3,4,3,3,5,3,4,5,5,5,5);
-        Grade g22 = new Grade(5,5,5,5,5,5,5,4,4,4,4,4,5,5,5);
-        Grade g30 = new Grade(4,4,4,4,4,5,5,5,3,3,3,4,5,5,5);
-        Grade g33 = new Grade(2,3,3,3,3,2,2,2,2,3,3,3,4,4,5);
+        Grade g1 = new Grade();
+        g1.addGrade(3);
+        g1.addGrade(4);
+        g1.addGrade(4);
+        g1.addGrade(4);
+
+        Grade g2 = new Grade();
+        g2.addGrade(3);
+        g2.addGrade(4);
+        g2.addGrade(5);
+        g2.addGrade(4);
+        g2.addGrade(3);
+
+        Grade g3 = new Grade();
+        g3.addGrade(4);
+        g3.addGrade(4);
+        g3.addGrade(5);
+        g3.addGrade(4);
+        g3.addGrade(3);
+
+        Grade g4 = new Grade();
+        g4.addGrade(5);
+        g4.addGrade(4);
+        g4.addGrade(3);
+        g4.addGrade(4);
+        g4.addGrade(4);
+        g4.addGrade(5);
+        g4.addGrade(4);
+
+        Grade g5 = new Grade();
+        g5.addGrade(4);
+        g5.addGrade(4);
+        g5.addGrade(4);
+        g5.addGrade(4);
+        g5.addGrade(4);
+
+        Grade g6 = new Grade();
+        g6.addGrade(4);
+        g6.addGrade(4);
+        g6.addGrade(3);
+        g6.addGrade(3);
+        g6.addGrade(3);
+
+        Grade g10 = new Grade();
+        g10.addGrade(2);
+        g10.addGrade(3);
+        g10.addGrade(3);
+        g10.addGrade(5);
+        g10.addGrade(4);
+
+        Grade g11 = new Grade();
+        g11.addGrade(4);
+        g11.addGrade(5);
+        g11.addGrade(5);
+        g11.addGrade(4);
+        g11.addGrade(5);
+
+        Grade g12 = new Grade();
+        g12.addGrade(3);
+        g12.addGrade(4);
+        g12.addGrade(5);
+        g12.addGrade(4);
+
+        Grade g20 = new Grade();
+        g20.addGrade(1);
+        g20.addGrade(2);
+        g20.addGrade(1);
+        g20.addGrade(3);
+        g20.addGrade(2);
+
+        Grade g21 = new Grade();
+        g21.addGrade(5);
+        g21.addGrade(5);
+        g21.addGrade(6);
+        g21.addGrade(5);
+        g21.addGrade(5);
+
+        Grade g22 = new Grade();
+        g22.addGrade(4);
+        g22.addGrade(3);
+        g22.addGrade(4);
+
+        Grade g30 = new Grade();
+        g30.addGrade(3);
+        g30.addGrade(2);
+        g30.addGrade(5);
+        g30.addGrade(4);
+
+        Grade g33 = new Grade();
+        g33.addGrade(4);
+        g33.addGrade(5);
+        g33.addGrade(5);
+        g33.addGrade(4);
 
         HashMap<Student, Grade> grades = new HashMap<>();
         grades.put(s1, g1);
@@ -49,5 +129,6 @@ public class GradesProcessor {
         grades.put(s22, g22);
         grades.put(s30, g30);
         grades.put(s33, g33);
-    }
+
+        }
 }
