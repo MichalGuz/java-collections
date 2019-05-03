@@ -21,5 +21,20 @@ public class GradesProcessor {
         Student s30 = new Student("Roman","Sulima", "30");
         Student s33 = new Student("Klaudia", "Szewczyk", "33");
 
+        Grade g1 = new Grade(4,3,4,4,3,5,5,3,4,3,5,5,3,4,4);
+        Grade g2 = new Grade(3,4,4,4,4,4,2,3,4,2,3,4,5,5,5);
+        Grade g3 = new Grade(5,4,3,5,5,4,4,3,4,3,3,3,2,2,5);
+        Grade g4 = new Grade(5,5,5,5,5,5,5,5,4,5,5,5,5,5,4);
+        Grade g5 = new Grade(5,5,5,5,5,5,5,5,5,5,5,5,5,5,5);
+        Grade g6 = new Grade(4,3,4,3,4,4,3,3,3,2,4,4,4,5,5);
+        Grade g10 = new Grade(3,3,3,5,5,5,5,4,4,4,5,5,4,5,5);
+        Grade g11 = new Grade(2,2,3,3,2,4,2,2,2,4,4,4,5,5,5);
+        Grade g12 = new Grade(4,2,3,2,4,5,5,5,5,2,2,2,4,4,5);
+        Grade g20 = new Grade(3,3,4,3,5,3,4,3,2,4,4,4,5,5,5);
+        Grade g21 = new Grade(4,4,3,4,3,4,3,3,5,3,4,5,5,5,5);
+        Grade g22 = new Grade(5,5,5,5,5,5,5,4,4,4,4,4,5,5,5);
+        Grade g30 = new Grade(4,4,4,4,4,5,5,5,3,3,3,4,5,5,5);
+        Grade g33 = new Grade(2,3,3,3,3,2,2,2,2,3,3,3,4,4,5);
+
     }
 }
