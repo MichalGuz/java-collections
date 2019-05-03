@@ -26,7 +26,7 @@ public class Grade {
         return s;
     }
 
-    public double getAverage() {
+    public double average() {
         double sum = 0;
         for (Integer grade : grades) {
             sum += grade;

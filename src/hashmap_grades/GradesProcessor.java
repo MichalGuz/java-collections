@@ -130,5 +130,8 @@ public class GradesProcessor {
         grades.put(s30, g30);
         grades.put(s33, g33);
 
+        for(Map.Entry<Student,Grade> entry: grades.entrySet()){
+            System.out.println(entry.getKey() + "\nList of grades: " + entry.getValue() + "\n[sum of grades: " + entry.getValue().sumOfGrades() + "]\nAverage of grades: " + entry.getValue().average() + "\n");
         }
+    }
 }
