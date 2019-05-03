@@ -9,5 +9,13 @@ public class Grade {
     public void addGrade(Integer grade) {
         grades.add(grade);
     }
+
+    public String toString() {
+        String n = "";
+        for (int i = 0; i < grades.size(); i++) {
+            n += grades.get(i) + ", ";
+        }
+        return n;
+    }
 }
 
