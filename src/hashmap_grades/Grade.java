@@ -25,5 +25,13 @@ public class Grade {
         }
         return s;
     }
+
+    public double getAverage() {
+        double sum = 0;
+        for (Integer grade : grades) {
+            sum += grade;
+        }
+        return sum / grades.size();
+    }
 }
 
