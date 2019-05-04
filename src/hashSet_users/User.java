@@ -20,5 +20,19 @@ public class User {
         return dateOfRegisty.getYear()* 100 + dateOfRegisty.getMonthValue();
     }
 
+    public String getName(){
+        return name;
+    }
 
+    public String getSurname(){
+        return surname;
+    }
+
+    public String getNick(){
+        return nick;
+    }
+
+    public LocalDate getDateOfRegisty(){
+        return dateOfRegisty;
+    }
 }

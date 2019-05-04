@@ -9,5 +9,7 @@ public class UsersApplication {
         HashSet<User> users = new HashSet<>();
 
         users.add(user1);
+
+        System.out.println(user1.hashCode());
     }
 }
