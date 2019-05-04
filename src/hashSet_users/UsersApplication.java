@@ -1,6 +1,5 @@
 package hashSet_users;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.HashSet;
 
 public class UsersApplication {
