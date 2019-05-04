@@ -23,5 +23,11 @@ public class UsersApplication {
         System.out.println("Is the user5 in the set? [" + users.contains(user5) + "]\n");
 
         System.out.println("Number of users: " + users.size() + "\n");
+
+        int n = 1;
+        for (User action : users){
+            System.out.println("User nr " + n + " " + action.getName() + " " + action.getSurname() + " = hashCode" + action.hashCode());
+            n++;
+        }
     }
 }
