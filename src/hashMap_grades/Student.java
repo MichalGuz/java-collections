@@ -1,4 +1,4 @@
-package hashmap_grades;
+package hashMap_grades;
 
 public class Student {
     String name;

@@ -1,4 +1,4 @@
-package hash_maps;
+package hashMap_contacts;
 
 import java.util.HashMap;
 import java.util.Map;

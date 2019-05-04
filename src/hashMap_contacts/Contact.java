@@ -1,4 +1,4 @@
-package hash_maps;
+package hashMap_contacts;
 
 public class Contact {
     String contact1;

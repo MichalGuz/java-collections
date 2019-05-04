@@ -1,4 +1,4 @@
-package hashmap_grades;
+package hashMap_grades;
 
 import java.util.ArrayList;
 import java.util.List;

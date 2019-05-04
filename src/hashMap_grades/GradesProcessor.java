@@ -1,4 +1,4 @@
-package hashmap_grades;
+package hashMap_grades;
 
 import java.util.HashMap;
 import java.util.Map;
