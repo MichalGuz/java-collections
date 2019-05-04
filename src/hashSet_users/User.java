@@ -15,6 +15,7 @@ public class User {
         this.dateOfRegisty = LocalDate.of(yearOfRegistry, monthOfRegistry, dayOfRegistry);
     }
 
+    //override method for baskets of hashSet
     @Override
     public int hashCode(){
         return dateOfRegisty.getYear()* 100 + dateOfRegisty.getMonthValue();
@@ -36,6 +37,7 @@ public class User {
         return dateOfRegisty;
     }
 
+    //override method for checking
     @Override
     public boolean equals(Object o){
         User u = (User) o;
