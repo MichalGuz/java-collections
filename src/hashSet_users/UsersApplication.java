@@ -21,5 +21,7 @@ public class UsersApplication {
         users.add(user6);
 
         System.out.println("Is the user5 in the set? [" + users.contains(user5) + "]\n");
+
+        System.out.println("Number of users: " + users.size() + "\n");
     }
 }
