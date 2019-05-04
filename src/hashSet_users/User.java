@@ -35,4 +35,10 @@ public class User {
     public LocalDate getDateOfRegisty(){
         return dateOfRegisty;
     }
+
+    @Override
+    public boolean equals(Object o){
+        User u = (User) o;
+        return (name.equals(u.getName())) && (surname.equals(u.getSurname())) && (nick.equals(u.getNick())) && (dateOfRegisty.getYear() == u.getDateOfRegisty().getYear()) && (dateOfRegisty.getMonthValue() == u.getDateOfRegisty().getMonthValue()) && dateOfRegisty.getDayOfMonth() == u.getDateOfRegisty().getDayOfMonth();
+    }
 }
