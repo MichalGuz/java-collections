@@ -15,5 +15,9 @@ public class User {
         this.dateOfRegisty = LocalDate.of(yearOfRegistry, monthOfRegistry, dayOfRegistry);
     }
 
+    public int hashCode(){
+        return dateOfRegisty.getYear()* 100 + dateOfRegisty.getMonthValue();
+    }
+
 
 }
