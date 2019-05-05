@@ -27,4 +27,11 @@ public class Book {
     public int getYearOfRelease() {
         return yearOfRelease;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        Book b = (Book) o;
+        return author.equals(b.getAuthor()) && title.equals(b.getTitle()) && (yearOfRelease == (b.getYearOfRelease()));
+    }
+
 }
