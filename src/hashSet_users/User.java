@@ -43,4 +43,8 @@ public class User {
         User u = (User) o;
         return (name.equals(u.getName())) && (surname.equals(u.getSurname())) && (nick.equals(u.getNick())) && (dateOfRegisty.getYear() == u.getDateOfRegisty().getYear()) && (dateOfRegisty.getMonthValue() == u.getDateOfRegisty().getMonthValue()) && dateOfRegisty.getDayOfMonth() == u.getDateOfRegisty().getDayOfMonth();
     }
+
+    public String toString(){
+        return name + " " + surname + ", nick: " + nick + ", date of registry: " + dateOfRegisty;
+    }
 }

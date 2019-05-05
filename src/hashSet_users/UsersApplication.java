@@ -4,12 +4,12 @@ import java.util.HashSet;
 
 public class UsersApplication {
     public static void main(String args[]) {
-        User user1 = new User("John", "Smith", "firstUser", 2019, 5, 1);
+        User user1 = new User("John", "Smith", "firstUser", 2018, 5, 1);
         User user2 = new User("Mary", "Jones", "MaryJ", 2019, 3, 1);
         User user3 = new User("Zack", "Lowe", "bigZ", 2019, 1, 31);
         User user4 = new User("Jane", "Abrams", "jan99", 2019, 3, 8);
         User user5 = new User("Alan", "Parkinson", "alpar", 2019, 2, 1);
-        User user6 = new User("Mia", "barton", "miab", 2019, 4, 5);
+        User user6 = new User("Mia", "Barton", "miab", 2019, 4, 5);
 
         HashSet<User> users = new HashSet<>();
 
@@ -25,7 +25,7 @@ public class UsersApplication {
         System.out.println("Number of users: " + users.size() + "\n");
 
         int n = 1;
-        for (User action : users){
+        for (User action : users) {
             System.out.println("User nr " + n + " " + action.getName() + " " + action.getSurname() + " = hashCode" + action.hashCode());
             n++;
         }
