@@ -29,5 +29,11 @@ public class UsersApplication {
             System.out.println("User nr " + n + " " + action.getName() + " " + action.getSurname() + " = hashCode" + action.hashCode());
             n++;
         }
+
+        //second method for display users' data in console
+        System.out.println("\nInformation about users: \n");
+        for(User theUsers: users){
+            System.out.println(theUsers);
+        }
     }
 }
