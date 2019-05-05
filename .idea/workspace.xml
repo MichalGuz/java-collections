@@ -203,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UsersApplication">
+  <component name="RunManager" selected="Application.PatientsQueue">
     <configuration name="CarsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked_list.CarsMain" />
       <module name="java-collections" />
@@ -246,13 +246,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetUserProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="equals_object.NetUserProcessor" />
+    <configuration name="PatientsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.PatientsQueue" />
       <module name="java-collections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="equals_object.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatientsQueue" />
         <item itemvalue="Application.UsersApplication" />
         <item itemvalue="Application.CarsMain" />
         <item itemvalue="Application.GradesProcessor" />
         <item itemvalue="Application.MapOfContacts" />
-        <item itemvalue="Application.NetUserProcessor" />
       </list>
     </recent_temporary>
   </component>

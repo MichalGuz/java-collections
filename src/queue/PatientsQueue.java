@@ -17,5 +17,12 @@ public class PatientsQueue {
         ArrayDeque<Appointment> appointments = new ArrayDeque<Appointment>();
 
         System.out.println("New queue has been created. It's size: " + appointments.size());
+
+        appointments.offer(appointment1);
+        appointments.offer(appointment2);
+        appointments.offer(appointment3);
+        appointments.offer(appointment4);
+        appointments.offer(appointment5);
+
     }
 }
