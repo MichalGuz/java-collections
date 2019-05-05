@@ -18,5 +18,10 @@ public class Appointment {
     public LocalDate getDateOfAppointment(){
         return dateOfAppointment;
     }
+
+    @Override
+    public String toString(){
+        return "Made appointment: " + dateOfAppointment + "\n" + "patient: " + patient;
+    }
 }
 
