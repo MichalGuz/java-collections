@@ -21,7 +21,7 @@ public class Appointment {
 
     @Override
     public String toString(){
-        return "Made appointment: " + dateOfAppointment + "\n" + "patient: " + patient;
+        return "(data of appointment) " + dateOfAppointment + "\n" + "patient: " + patient;
     }
 }
 
