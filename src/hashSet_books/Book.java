@@ -10,4 +10,10 @@ public class Book {
         this.title = title;
         this.yearOfRelease = yearOfRelease;
     }
+
+    @Override
+    public int hashCode(){
+        return yearOfRelease;
+    }
+
 }
