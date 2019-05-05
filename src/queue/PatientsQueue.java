@@ -24,5 +24,6 @@ public class PatientsQueue {
         appointments.offer(appointment4);
         appointments.offer(appointment5);
 
+        System.out.println("Queue has been filled. It's size: " + appointments.size());
     }
 }
