@@ -34,6 +34,29 @@ public class PatientsQueue {
         System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment1);
         System.out.println("\nAfter the first appointment, the size of queue is: " + appointments.size());
 
+        Appointment temporaryAppointment2;
+        temporaryAppointment2 = appointments.poll();
+
+        System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment2);
+        System.out.println("\nAfter the next appointment, the size of queue is: " + appointments.size());
+
+        Appointment temporaryAppointment3;
+        temporaryAppointment3 = appointments.poll();
+
+        System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment3);
+        System.out.println("\nAfter the next appointment, the size of queue is: " + appointments.size());
+
+        Appointment temporaryAppointment4;
+        temporaryAppointment4 = appointments.poll();
+
+        System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment4);
+        System.out.println("\nAfter the next appointment, the size of queue is: " + appointments.size());
+
+        Appointment temporaryAppointment5;
+        temporaryAppointment5 = appointments.poll();
+
+        System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment5);
+        System.out.println("\nAfter the next appointment, the size of queue is: " + appointments.size());
 
 
     }
