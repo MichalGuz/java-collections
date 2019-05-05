@@ -15,5 +15,7 @@ public class PatientsQueue {
         Appointment appointment5 = new Appointment(patient3, 2019, 05,21);
 
         ArrayDeque<Appointment> appointments = new ArrayDeque<Appointment>();
+
+        System.out.println("New queue has been created. It's size: " + appointments.size());
     }
 }
