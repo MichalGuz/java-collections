@@ -12,4 +12,20 @@ public class Patient {
         this.age = age;
         this.medicalInsuranceNumber = medicalInsuranceNumber;
     }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getSurname(){
+        return surname;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public int getMedicalInsuranceNumber(){
+        return medicalInsuranceNumber;
+    }
 }
