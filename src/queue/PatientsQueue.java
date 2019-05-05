@@ -1,6 +1,6 @@
 package queue;
 
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.ArrayDeque;
 
 public class PatientsQueue {
     public static void main(String[] args) {
@@ -14,8 +14,6 @@ public class PatientsQueue {
         Appointment appointment4 = new Appointment(patient1, 2019, 05, 20);
         Appointment appointment5 = new Appointment(patient3, 2019, 05,21);
 
-
-
-
+        ArrayDeque<Appointment> appointments = new ArrayDeque<Appointment>();
     }
 }
