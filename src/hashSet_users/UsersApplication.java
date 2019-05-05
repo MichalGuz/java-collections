@@ -24,17 +24,25 @@ public class UsersApplication {
 
         System.out.println("Number of users: " + users.size() + "\n");
 
-        //first method for display users' data in console (without date of registry)
+        //first way of displaying users' data in console (without date of registry)
         int n = 1;
         for (User action : users) {
             System.out.println("User" + " " + action.getName() + " " + action.getSurname() + " = hashCode" + action.hashCode() + ", [" + n + "]" );
             n++;
         }
 
-        //second method for display users' data in console
+        //second way of displaying users' data in console
         System.out.println("\nInformation about users: \n");
         for(User theUsers: users){
             System.out.println(theUsers);
+        }
+
+        //third way of displaying users' data in console (filtered by year) - only users registered in 2019
+        System.out.println("\nUsers registered in 2019:");
+        for(User theUsers: users) {
+            if (theUsers.getDateOfRegisty().getYear()>2018) {
+                System.out.println(theUsers);
+            }
         }
     }
 }
