@@ -10,4 +10,13 @@ public class Appointment {
         this.patient = patient;
         this.dateOfAppointment = LocalDate.of(year, month, day);
     }
+
+    public Patient getPatient(){
+        return patient;
+    }
+
+    public LocalDate getDateOfAppointment(){
+        return dateOfAppointment;
+    }
 }
+
