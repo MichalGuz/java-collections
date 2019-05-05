@@ -28,6 +28,10 @@ public class PatientsQueue {
 
         System.out.println("First appointment in queue is: " + appointments.peek());
 
+        Appointment temporaryAppointment1;
+        temporaryAppointment1 = appointments.poll();
+
+        System.out.println("\nAfter the first appointment, the size of queue is: " + appointments.size());
 
     }
 }
