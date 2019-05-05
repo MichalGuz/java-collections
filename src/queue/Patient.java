@@ -4,9 +4,9 @@ public class Patient {
     public String name;
     public String surname;
     public int age;
-    public int medicalInsuranceNumber;
+    public String medicalInsuranceNumber;
 
-    public Patient(String name, String surname, int age, int medicalInsuranceNumber){
+    public Patient(String name, String surname, int age, String medicalInsuranceNumber){
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -25,7 +25,7 @@ public class Patient {
         return age;
     }
 
-    public int getMedicalInsuranceNumber(){
+    public String getMedicalInsuranceNumber(){
         return medicalInsuranceNumber;
     }
 
