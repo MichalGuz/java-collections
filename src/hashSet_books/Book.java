@@ -34,4 +34,9 @@ public class Book {
         return author.equals(b.getAuthor()) && title.equals(b.getTitle()) && (yearOfRelease == (b.getYearOfRelease()));
     }
 
+    @Override
+    public String toString(){
+        return author + " \""+ title + "\" [" + yearOfRelease + "]\n";
+    }
+
 }
