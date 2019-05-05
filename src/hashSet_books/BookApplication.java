@@ -10,5 +10,13 @@ public class BookApplication {
         Book book4 = new Book("Witold Gombrowicz", "Kosmos",1970);
         Book book5 = new Book("Szczepan Twardoch", "Morfina", 2012);
         Book book6 = new Book("Michel Houellebecq", "Cząstki elementarne", 2000);
+
+        HashSet<Book> setOfBooks = new HashSet<Book>();
+        setOfBooks.add(book1);
+        setOfBooks.add(book2);
+        setOfBooks.add(book3);
+        setOfBooks.add(book4);
+        setOfBooks.add(book5);
+        setOfBooks.add(book6);
     }
 }
