@@ -28,4 +28,9 @@ public class Patient {
     public int getMedicalInsuranceNumber(){
         return medicalInsuranceNumber;
     }
+
+    @Override
+    public String toString(){
+        return "Patient: " + name + " " + surname + " [" + age + "], MIN: " + medicalInsuranceNumber;
+    }
 }
