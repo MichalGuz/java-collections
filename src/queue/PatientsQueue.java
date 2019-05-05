@@ -57,7 +57,5 @@ public class PatientsQueue {
 
         System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment5);
         System.out.println("\nAfter the next appointment, the size of queue is: " + appointments.size());
-
-
     }
 }
