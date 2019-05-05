@@ -18,5 +18,12 @@ public class BookApplication {
         setOfBooks.add(book4);
         setOfBooks.add(book5);
         setOfBooks.add(book6);
+
+        System.out.println("Old books in the collection (released before 2000):");
+        for(Book oldBooks: setOfBooks){
+            if (oldBooks.getYearOfRelease() < 2000) {
+                System.out.println(oldBooks);
+            }
+        }
     }
 }
