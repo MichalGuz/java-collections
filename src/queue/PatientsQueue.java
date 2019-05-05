@@ -31,7 +31,10 @@ public class PatientsQueue {
         Appointment temporaryAppointment1;
         temporaryAppointment1 = appointments.poll();
 
+        System.out.println("\nAn appointment has been finished:\n " + temporaryAppointment1);
         System.out.println("\nAfter the first appointment, the size of queue is: " + appointments.size());
+
+
 
     }
 }
