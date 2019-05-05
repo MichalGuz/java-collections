@@ -24,9 +24,10 @@ public class UsersApplication {
 
         System.out.println("Number of users: " + users.size() + "\n");
 
+        //first method for display users' data in console (without date of registry)
         int n = 1;
         for (User action : users) {
-            System.out.println("User nr " + n + " " + action.getName() + " " + action.getSurname() + " = hashCode" + action.hashCode());
+            System.out.println("User" + " " + action.getName() + " " + action.getSurname() + " = hashCode" + action.hashCode() + ", [" + n + "]" );
             n++;
         }
 
