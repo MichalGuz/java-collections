@@ -24,4 +24,9 @@ public class CutCopy {
     public LocalDate getDateOfAction(){
         return dateOfAction;
     }
+
+    @Override
+    public String toString(){
+        return "Action initialized " + dateOfAction + ", number of action: " + numberOfAction + "\n<< " + item + " >>";
+    }
 }
