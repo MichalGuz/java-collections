@@ -20,5 +20,10 @@ public class Processor {
         cutCopy.push(action0);
         System.out.println("Stack is created. It's size is: " + cutCopy.size());
 
+        cutCopy.push(action1);
+        cutCopy.push(action2);
+        cutCopy.push(action3);
+        cutCopy.push(action4);
+        System.out.println("Stack is filled. It's size is: " + cutCopy.size());
     }
 }
