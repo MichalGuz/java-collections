@@ -17,7 +17,8 @@ public class Processor {
         CutCopy action4 = new CutCopy(item4, "4", 2019, 5, 5);
 
         ArrayDeque<CutCopy> cutCopy = new ArrayDeque<CutCopy>();
-        cutCopy.offer(action0);
+        cutCopy.push(action0);
         System.out.println("Stack is created. It's size is: " + cutCopy.size());
+
     }
 }
