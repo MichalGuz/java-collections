@@ -22,5 +22,7 @@ public class ApplicationHashSet {
             Member member = iteratorMembers.next();
             System.out.println(member);
         }
+
+        System.out.println("End of loop While");
     }
 }
