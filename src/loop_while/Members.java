@@ -36,4 +36,9 @@ public class Members {
         return (name.equals(m.getName())) && (surname.equals(m.getSurname()))&& (birthDate.getYear()== m.getBirthDate().getYear()) && (birthDate.getMonthValue() == m.getBirthDate().getMonthValue()) && (birthDate.getDayOfMonth() == m.getBirthDate().getDayOfYear();
     }
 
+    @Override
+    public String toString(){
+        return name + " " + surname + " , born " + birthDate;
+    }
+
 }
