@@ -8,7 +8,11 @@ public class Processor {
         Item item3 = new Item("fourth text to copy", "3");
         Item item4 = new Item("fifth text to copy", "4");
 
-
+        CutCopy action0 = new CutCopy(item0, "0", 2019,5,4);
+        CutCopy action1 = new CutCopy(item1, "1", 2019, 5,5);
+        CutCopy action2 = new CutCopy(item2, "2", 2019, 5, 5);
+        CutCopy action3 = new CutCopy(item3, "3", 2019, 5, 5);
+        CutCopy action4 = new CutCopy(item4, "4", 2019, 5, 5);
 
     }
 }
