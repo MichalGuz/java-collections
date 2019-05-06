@@ -8,4 +8,12 @@ public class Item {
         this.item = item;
         this.numberOfItem = numberOfItem;
     }
+
+    public String getItem(){
+        return item;
+    }
+
+    public String getNumberOfItem() {
+        return numberOfItem;
+    }
 }
