@@ -25,5 +25,10 @@ public class Processor {
         cutCopy.push(action3);
         cutCopy.push(action4);
         System.out.println("Stack is filled. It's size is: " + cutCopy.size());
+
+        CutCopy clipboard;
+        for(CutCopy clear: cutCopy) {
+            clipboard = cutCopy.peek();
+        }
     }
 }
