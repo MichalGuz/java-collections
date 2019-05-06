@@ -30,6 +30,7 @@ public class Processor {
         for(CutCopy clear: cutCopy) {
             clipboard = cutCopy.peek();
             System.out.println(clipboard);
+            clipboard = cutCopy.pop();
         }
     }
 }
