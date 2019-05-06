@@ -32,5 +32,7 @@ public class Processor {
             System.out.println(clipboard);
             clipboard = cutCopy.pop();
         }
+
+        System.out.println("Stack is cleared. It's size is: " + cutCopy.size());
     }
 }
