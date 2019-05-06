@@ -1,5 +1,7 @@
 package queue_stack_clipboard;
 
+import java.util.ArrayDeque;
+
 public class Processor {
     public static void main(String[] args) {
         Item item0 = new Item("first text to copy", "0");
@@ -14,5 +16,8 @@ public class Processor {
         CutCopy action3 = new CutCopy(item3, "3", 2019, 5, 5);
         CutCopy action4 = new CutCopy(item4, "4", 2019, 5, 5);
 
+        ArrayDeque<CutCopy> cutCopy = new ArrayDeque<CutCopy>();
+        cutCopy.offer(action0);
+        System.out.println("Stack is created. It's size is: " + cutCopy.size());
     }
 }
