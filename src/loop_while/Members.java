@@ -13,5 +13,16 @@ public class Members {
         this.birthDate = LocalDate.of(year, month, day);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
 
 }
