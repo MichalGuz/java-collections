@@ -30,5 +30,10 @@ public class Members {
         return birthDate.getYear() *100 + birthDate.getMonthValue();
     }
 
+    @Override
+    public boolean equals(Object o){
+        Members m = (Members)o;
+        return (name.equals(m.getName())) && (surname.equals(m.getSurname()))&& (birthDate.getYear()== m.getBirthDate().getYear()) && (birthDate.getMonthValue() == m.getBirthDate().getMonthValue()) && (birthDate.getDayOfMonth() == m.getBirthDate().getDayOfYear();
+    }
 
 }
