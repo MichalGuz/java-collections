@@ -12,4 +12,16 @@ public class CutCopy {
         this.numberOfAction = numberOfAction;
         this.dateOfAction = LocalDate.of(year, month, day);
     }
+
+    public Item getItem(){
+        return item;
+    }
+
+    public String getNumberOfAction(){
+        return numberOfAction;
+    }
+
+    public LocalDate getDateOfAction(){
+        return dateOfAction;
+    }
 }
