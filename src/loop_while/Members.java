@@ -33,12 +33,11 @@ public class Members {
     @Override
     public boolean equals(Object o){
         Members m = (Members)o;
-        return (name.equals(m.getName())) && (surname.equals(m.getSurname()))&& (birthDate.getYear()== m.getBirthDate().getYear()) && (birthDate.getMonthValue() == m.getBirthDate().getMonthValue()) && (birthDate.getDayOfMonth() == m.getBirthDate().getDayOfYear();
+        return (name.equals(m.getName())) && (surname.equals(m.getSurname()))&& (birthDate.getYear()== m.getBirthDate().getYear()) && (birthDate.getMonthValue() == m.getBirthDate().getMonthValue()) && (birthDate.getDayOfMonth() == m.getBirthDate().getDayOfYear());
     }
 
     @Override
     public String toString(){
         return name + " " + surname + " , born " + birthDate;
     }
-
 }
