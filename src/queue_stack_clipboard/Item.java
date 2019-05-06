@@ -13,7 +13,12 @@ public class Item {
         return item;
     }
 
-    public String getNumberOfItem() {
+    public String getNumberOfItem(){
         return numberOfItem;
+    }
+
+    @Override
+    public String toString(){
+        return item + "[" + numberOfItem + "];";
     }
 }
