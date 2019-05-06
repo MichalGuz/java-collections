@@ -1,5 +1,7 @@
 package loop_while;
 
+import java.util.HashSet;
+
 public class ApplicationHashSet {
     public static void main(String[] args) {
 
@@ -7,6 +9,12 @@ public class ApplicationHashSet {
         Member member2 = new Member("name2", "surname2", 1982, 1, 10);
         Member member3 = new Member("name3", "surname3", 1978, 12, 11);
         Member member4 = new Member("name4", "surname4", 1986, 9, 17;
+
+        HashSet<Member> listOfMembers= new HashSet<Member>();
+        listOfMembers.add(member1);
+        listOfMembers.add(member2);
+        listOfMembers.add(member3);
+        listOfMembers.add(member4);
 
     }
 }
