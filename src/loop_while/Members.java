@@ -25,4 +25,10 @@ public class Members {
         return birthDate;
     }
 
+    @Override
+    public int hashCode(){
+        return birthDate.getYear() *100 + birthDate.getMonthValue();
+    }
+
+
 }
