@@ -8,7 +8,8 @@ public class LogInTest {
         int loopCounter = 0;
         Random randomGenerator = new Random();
         while(!isLogged){
-            }
-
+            loopCounter++;
+            System.out.println("Waiting for the user to sign in [attempt #" + loopCounter + "]");
+        }
    }
 }
