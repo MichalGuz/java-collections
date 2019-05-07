@@ -14,6 +14,7 @@ public class Sum {
             int b = randomB.nextInt(50);
             sumA = sumA + a;
             sumB = sumB + b;
+            attemptCounter++;
         }
     }
 }
