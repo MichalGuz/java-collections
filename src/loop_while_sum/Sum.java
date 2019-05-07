@@ -12,6 +12,8 @@ public class Sum {
         while(sumA > sumB){
             int a = randomA.nextInt(10);
             int b = randomB.nextInt(50);
+            sumA = sumA + a;
+            sumB = sumB + b;
         }
     }
 }
