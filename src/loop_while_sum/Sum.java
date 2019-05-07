@@ -9,5 +9,8 @@ public class Sum {
         Random randomA = new Random();
         Random randomB = new Random();
         int attemptCounter =0;
+        while(sumA > sumB){
+
+        }
     }
 }
