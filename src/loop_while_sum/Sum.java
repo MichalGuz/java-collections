@@ -15,6 +15,7 @@ public class Sum {
             sumA = sumA + a;
             sumB = sumB + b;
             attemptCounter++;
+            System.out.println("Sum A = " + sumA + "; Sum B = " + sumB + ";" + " [attempt #" + attemptCounter + "]");
         }
     }
 }
