@@ -7,6 +7,8 @@ public class LogInTest {
         boolean isLogged = false;
         int loopCounter = 0;
         Random randomGenerator = new Random();
+        while(!isLogged){
+            }
 
-    }
+   }
 }
