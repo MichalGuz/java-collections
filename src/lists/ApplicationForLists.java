@@ -7,5 +7,8 @@ public class ApplicationForLists {
 
         LastRemoved lastRemoved = new LastRemoved();
         lastRemoved.lastRemovedProcess();
+
+        BigList bigList = new BigList();
+        bigList.bigListCreator();
     }
 }

@@ -9,7 +9,7 @@ public class BigList {
         Random random = new Random();
         for(int i=0; i<1500000; i++){
             bigList.add(random.nextInt(10000));
-            System.out.println("The list contains " + bigList.size() + " objects.");
         }
+        System.out.println("The list contains " + bigList.size() + " objects.");
     }
 }
