@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/java-collections/loop_while/ApplicationHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-collections/loop_while/Member.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/loop_while_log_in/LogInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -41,12 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/loop_while_log_in/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -308,7 +306,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32443365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -324,7 +321,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49838188" weight="0.30124223" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49838188" visible="true" weight="0.30124223" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50161815" side_tool="true" weight="0.30124223" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
@@ -637,12 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loop_while_log_in/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
