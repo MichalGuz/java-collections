@@ -7,12 +7,13 @@ public class LogInTest {
         boolean isLogged = false;
         int loopCounter = 0;
         Random randomGenerator = new Random();
-        while(!isLogged){
+        while (!isLogged) {
             loopCounter++;
             System.out.println("Waiting for the user to sign in [attempt #" + loopCounter + "]");
-            if(randomGenerator.nextInt(100)>90){
+            if (randomGenerator.nextInt(100) > 90) {
                 isLogged = true;
             }
         }
-   }
+    }
 }
+
