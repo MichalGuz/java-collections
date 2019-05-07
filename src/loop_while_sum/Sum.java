@@ -8,5 +8,6 @@ public class Sum {
         int sumB = 0;
         Random randomA = new Random();
         Random randomB = new Random();
+        int attemptCounter =0;
     }
 }
