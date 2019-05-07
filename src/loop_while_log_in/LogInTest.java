@@ -10,6 +10,9 @@ public class LogInTest {
         while(!isLogged){
             loopCounter++;
             System.out.println("Waiting for the user to sign in [attempt #" + loopCounter + "]");
+            if(randomGenerator.nextInt(100)>90){
+                isLogged = true;
+            }
         }
    }
 }
