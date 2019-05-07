@@ -10,7 +10,8 @@ public class Sum {
         Random randomB = new Random();
         int attemptCounter =0;
         while(sumA > sumB){
-
+            int a = randomA.nextInt(10);
+            int b = randomB.nextInt(50);
         }
     }
 }
