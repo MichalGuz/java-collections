@@ -7,6 +7,9 @@ public class OddEliminator {
         int tempValue = 0;
         for (int i=0; i < collection.size(); i++) {
             tempValue = collection.get(i);
+            if (tempValue % 2 == 0) {
+                System.out.println(tempValue);
+            }
         }
     }
 }
