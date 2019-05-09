@@ -10,6 +10,8 @@ public class QueueOfCalls {
         }
 
         ArrayDeque<String> secondCallQueue = new ArrayDeque<String>();
-
+        for (int i = 0; i < 5; i++){
+            secondCallQueue.offer("The second call number: " + (i + 1));
+        }
     }
 }
