@@ -17,6 +17,8 @@ public class CallProcessor {
             System.out.println("Making a call: " + call);
             madeCalls.add(call);
         }
+        System.out.println("\nMade calls: " + madeCalls.size());
     }
+
 
 }
