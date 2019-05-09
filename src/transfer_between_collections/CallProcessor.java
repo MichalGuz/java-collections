@@ -15,6 +15,7 @@ public class CallProcessor {
         while (theQueue.size()>0){
             String call = theQueue.poll();
             System.out.println("Making a call: " + call);
+            madeCalls.add(call);
         }
     }
 
