@@ -14,6 +14,7 @@ public class CallProcessor {
     public void makeCalls(ArrayDeque<String> theQueue) {
         while (theQueue.size()>0){
             String call = theQueue.poll();
+            System.out.println("Making a call: " + call);
         }
     }
 
