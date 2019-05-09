@@ -8,5 +8,8 @@ public class QueueOfCalls {
         for (int i=0; i < 5; i++){
             callQueue.offer("The first call number " + (i + 1));
         }
+
+        ArrayDeque<String> secondCallQueue = new ArrayDeque<String>();
+
     }
 }
