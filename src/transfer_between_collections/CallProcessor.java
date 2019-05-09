@@ -12,6 +12,8 @@ public class CallProcessor {
     }
 
     public void makeCalls(ArrayDeque<String> theQueue) {
+        while (theQueue.size()>0){
+            }
     }
 
 }
