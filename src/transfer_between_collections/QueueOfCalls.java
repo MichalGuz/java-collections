@@ -13,5 +13,9 @@ public class QueueOfCalls {
         for (int i = 0; i < 5; i++){
             secondCallQueue.offer("The second call number: " + (i + 1));
         }
+
+        CallProcessor callProcessor = new CallProcessor();
+        callProcessor.makeCalls(callQueue);
+        callProcessor.makeCalls(secondCallQueue);
     }
 }
