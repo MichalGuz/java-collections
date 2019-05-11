@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +37,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#198#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/transfer_between_collections/CallProcessor.java" />
         <option value="$PROJECT_DIR$/src/transfer_between_collections/QueueOfCalls.java" />
         <option value="$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" />
       </list>
     </option>
   </component>
@@ -705,12 +719,23 @@
     <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <element signature="e#110#111#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#228#0" expanded="true" />
           </folding>
         </state>
       </provider>
