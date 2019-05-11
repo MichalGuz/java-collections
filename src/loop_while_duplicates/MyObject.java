@@ -11,5 +11,14 @@ public class MyObject {
         return value;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        MyObject m = (MyObject) o;
+        if (m.getValue() == value) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
-   }
+}
