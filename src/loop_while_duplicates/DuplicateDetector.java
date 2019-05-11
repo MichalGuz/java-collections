@@ -17,7 +17,7 @@ public class DuplicateDetector {
             MyObject checkedObject = iterator.next();
             for (int p = 0; p < numbers.size(); p++) {
                 if (numbers.get(p).hashCode() != checkedObject.hashCode()) {
-
+                    System.out.println("Duplicated: " + checkedObject.getValue());
                 }
             }
         }
