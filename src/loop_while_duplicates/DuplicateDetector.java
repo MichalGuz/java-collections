@@ -15,7 +15,8 @@ public class DuplicateDetector {
         Iterator<MyObject> iterator = numbers.iterator();
         while(iterator.hasNext()){
             MyObject checkedObject = iterator.next();
-            for(int p; p < numbers.size(); p++){
+            for(int p=0; p < numbers.size(); p++){
+
             }
         }
     }
