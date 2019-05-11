@@ -6,4 +6,10 @@ public class MyObject {
     public MyObject(int value){
         this.value = value;
     }
-}
+
+    public int getValue(){
+        return value;
+    }
+
+
+   }
