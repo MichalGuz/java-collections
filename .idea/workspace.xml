@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/java-collections/transfer_between_collections/CallProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-collections/transfer_between_collections/QueueOfCalls.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-collections/list_as_parameter/ListAsParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/list_as_parameter/ListAsParameter.class" afterDir="false" />
@@ -115,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="425" />
@@ -311,7 +313,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34142396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
