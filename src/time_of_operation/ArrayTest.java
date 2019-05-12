@@ -10,5 +10,10 @@ public class ArrayTest {
         }
 
         System.out.println("Size of collection 'numbers': " + numbers.size() + " elements.");
+
+        ArrayList<Integer> moreNumbers = new ArrayList<>();
+        for(int k = 0; k < 1000000; k++){
+            moreNumbers.add(k);
+        }
     }
 }
