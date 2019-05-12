@@ -15,5 +15,8 @@ public class ArrayTest {
         for(int k = 0; k < 1000000; k++){
             moreNumbers.add(k);
         }
+
+        System.out.println("Size of collection 'moreNumbers': " + moreNumbers.size() + " elements.");
+
     }
 }
