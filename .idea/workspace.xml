@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/java-collections/loop_while_duplicates/DuplicateDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-collections/loop_while_duplicates/MyObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" afterDir="false" />
     </list>
@@ -50,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="398">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#273#283#0" expanded="true" />
@@ -337,12 +339,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.22826087" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
@@ -728,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="398">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#273#283#0" expanded="true" />
