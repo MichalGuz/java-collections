@@ -12,6 +12,8 @@ public class DuplicateDetector {
         for (int i = 0; i < 10; i++) {
             numbers.add(new MyObject(randomGenerator.nextInt(10)));
         }
+
+        System.out.println("\nCollection numbers contains;");
         for(MyObject print: numbers) {
             System.out.println(print.getValue());
         }
@@ -29,8 +31,9 @@ public class DuplicateDetector {
             }
         }
 
+        System.out.println("\nCollection duplicated size is: " + duplicated.size());
         for(MyObject print: duplicated) {
-            System.out.println("Duplicate:" + print.getValue());
+            System.out.println("Duplicate: " + print.getValue());
         }
 
         ArrayList<MyObject> duplicatedFinal = new ArrayList<>();
@@ -43,7 +46,7 @@ public class DuplicateDetector {
 
         System.out.println("\nCollection duplicatedFinal size is: " + duplicatedFinal.size());
         for(MyObject print: duplicatedFinal) {
-            System.out.println("Duplicate final:" + print.getValue());
+            System.out.println("Duplicate final: " + print.getValue());
         }
     }
 }
