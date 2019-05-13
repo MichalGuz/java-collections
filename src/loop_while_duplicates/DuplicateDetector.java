@@ -23,19 +23,7 @@ public class DuplicateDetector {
             for (int p = 0; p < numbers.size(); p++) {
                 if (numbers.get(p).hashCode() != checkedObject.hashCode()) {
                     if (numbers.get(p).equals(checkedObject)){
-//                        if(duplicated.isEmpty()) {
                             duplicated.add(checkedObject);
-//                        } else {
-//                            for(MyObject temp: duplicated){
-//                                System.out.println("Temp: " + temp.getValue());
-//                                System.out.println("Check: " + checkedObject.getValue());
-//                                if(temp.getValue() != checkedObject.getValue()) {
-//                                    duplicated.add(checkedObject);
-//                                    System.out.println("Are not equal");
-//                                }
-//                            }
-//                        }
-
                     }
                 }
             }
