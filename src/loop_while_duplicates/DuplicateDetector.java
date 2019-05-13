@@ -18,13 +18,12 @@ public class DuplicateDetector {
 
         Iterator<MyObject> iterator = numbers.iterator();
         ArrayList<MyObject> duplicated = new ArrayList<>();
-
         while (iterator.hasNext()) {
             MyObject checkedObject = iterator.next();
             for (int p = 0; p < numbers.size(); p++) {
                 if (numbers.get(p).hashCode() != checkedObject.hashCode()) {
                     if (numbers.get(p).equals(checkedObject)){
- //                       if(duplicated.isEmpty()) {
+//                        if(duplicated.isEmpty()) {
                             duplicated.add(checkedObject);
 //                        } else {
 //                            for(MyObject temp: duplicated){
@@ -36,12 +35,22 @@ public class DuplicateDetector {
 //                                }
 //                            }
 //                        }
+
                     }
                 }
             }
         }
+
         for(MyObject print: duplicated) {
             System.out.println("Duplicate:" + print.getValue());
         }
+
+
+//        for(int k = 0; k < duplicated.size(); k++) {
+//            MyObject testedObject = iterator.next();
+//            if(duplicated.get(k).getValue() = testedObject.getValue()
+//        }
+
+
     }
 }
