@@ -9,5 +9,7 @@ public class BigArrayList {
         for(int i = 0; i < 1000000; i++) {
             numbers.add(i);
         }
+
+        System.out.println("Size of collection 'numbers': " + numbers.size() + " elements.");
     }
 }
