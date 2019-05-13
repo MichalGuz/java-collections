@@ -47,5 +47,10 @@ public class DuplicateDetector {
                 }
             }
         }
+
+        System.out.println("Collection duplicatedFinal size is: " + duplicatedFinal.size());
+        for(MyObject print: duplicatedFinal) {
+            System.out.println("Duplicate final:" + print.getValue());
+        }
     }
 }
