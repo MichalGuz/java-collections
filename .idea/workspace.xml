@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/java-collections/loop_while_duplicates/DuplicateDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/loop_while_duplicates/DuplicateDetector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/TimeDifferences.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="188">
+              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -736,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        <state relative-caret-position="188">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
