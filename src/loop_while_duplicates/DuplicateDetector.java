@@ -39,14 +39,18 @@ public class DuplicateDetector {
             MyObject testedObject = iterator1.next();
             for(int k = 0; k < duplicated.size(); k++) {
                 if (duplicated.get(k).hashCode() != testedObject.hashCode()) {
-                    while (duplicated.get(k).getValue() != testedObject.getValue()) {
-                        System.out.println("first element = " + duplicated.get(k).getValue());
-                        System.out.println("second element = " + testedObject.getValue());
-                        duplicatedFinal.add(testedObject);
+                    if (!(duplicated.get(k).equals(testedObject))){
+                        if (!(duplicated.contains(testedObject.getValue()))) {
+                            duplicatedFinal.add(testedObject);
+                        }
+//                       System.out.println("first element = " + duplicated.get(k).getValue());
+//                       System.out.println("second element = " + testedObject.getValue());
+//                        duplicatedFinal.add(testedObject);
                     }
                 }
             }
         }
+
 
         System.out.println("Collection duplicatedFinal size is: " + duplicatedFinal.size());
         for(MyObject print: duplicatedFinal) {
