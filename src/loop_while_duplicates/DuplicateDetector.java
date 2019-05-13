@@ -37,7 +37,6 @@ public class DuplicateDetector {
         }
 
         ArrayList<MyObject> duplicatedFinal = new ArrayList<>();
-        duplicatedFinal.add(duplicated.get(0));
         for(int k = 0; k < duplicated.size(); k++) {
             if (!(duplicatedFinal.contains(duplicated.get(k)))) {
                 duplicatedFinal.add(duplicated.get(k));
