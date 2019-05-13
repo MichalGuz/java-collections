@@ -44,13 +44,5 @@ public class DuplicateDetector {
         for(MyObject print: duplicated) {
             System.out.println("Duplicate:" + print.getValue());
         }
-
-
-//        for(int k = 0; k < duplicated.size(); k++) {
-//            MyObject testedObject = iterator.next();
-//            if(duplicated.get(k).getValue() = testedObject.getValue()
-//        }
-
-
     }
 }
