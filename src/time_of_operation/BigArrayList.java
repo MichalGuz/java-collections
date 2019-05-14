@@ -15,5 +15,13 @@ public class BigArrayList implements CollectionProcessor {
 
         System.out.println("Size of collection 'numbers': " + numbers.size() + " elements.");
     }
+    @Override
+    public long timeOfAddFirst() {
+        long start1 = System.currentTimeMillis();
+        numbers.add(0);
+        long end1 = System.currentTimeMillis();
+        return differenceOfTime = end1 - start1;
+    }
+
 
 }
