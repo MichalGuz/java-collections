@@ -3,6 +3,8 @@ package time_of_operation;
 import java.util.ArrayList;
 
 public class BigArrayList implements CollectionProcessor {
+    BigArrayList bigArrayList;
+
     ArrayList<Integer> numbers;
     long differenceOfTime;
 
