@@ -1,5 +1,8 @@
 package time_of_operation;
 
-public class BigArrayList implements CollectionProcessor {
+import java.util.ArrayList;
 
-   }
+public class BigArrayList implements CollectionProcessor {
+    ArrayList<Integer> numbers;
+    long differenceOfTime;
+}
