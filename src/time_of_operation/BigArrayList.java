@@ -47,4 +47,14 @@ public class BigArrayList implements CollectionProcessor {
         long end4 = System.currentTimeMillis();
         return differenceOfTime = end4 - start4;
     }
+
+    @Override
+    public void print() {
+        System.out.println("[Big ArrayList] = " + numbers.size() + " elements.");
+        System.out.println("Time of adding new element at the beginning of collection [ms]:" + bigArrayList.timeOfAddFirst());
+        System.out.println("Time of adding new element at the end of collection [ms]:" + bigArrayList.timeOfAddLast());
+        System.out.println("Time of removing an element from the beginning of collection [ms]:" + bigArrayList.timeOfAddFirst());
+        System.out.println("Time of removing an element from the end of collection [ms]:" + bigArrayList.timeOfAddLast());
+    }
+
 }
