@@ -5,7 +5,7 @@ public class TimeOfOperation {
     long end;
     long timeOfOperation;
 
-    long calculateTimeOperation(){
+    long calculateTimeOperation(long start, long end){
         return timeOfOperation = end - start;
     }
 }
