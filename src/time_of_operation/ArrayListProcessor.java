@@ -34,12 +34,5 @@ public class ArrayListProcessor {
         return differenceOfTime = end4 - start4;
     }
 
-    public void printArrayList(ArrayList<Integer> list) {
-        System.out.println("[Big ArrayList] = " + list.size() + " elements.");
-        System.out.println("Time of adding new element at the beginning of collection [ms]:" + arrayListProcessor.timeOfAddFirstToArrayList(list));
-        System.out.println("Time of adding new element at the end of collection [ms]:" + arrayListProcessor.timeOfAddLastToArrayList(list));
-        System.out.println("Time of removing an element from the beginning of collection [ms]:" + arrayListProcessor.timeOfRemoveFirstFromArrayList(list));
-        System.out.println("Time of removing an element from the end of collection [ms]:" + arrayListProcessor.timeOfRemoveLastFromArrayList(list));
-    }
 
 }
