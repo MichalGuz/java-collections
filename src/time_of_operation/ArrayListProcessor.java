@@ -3,7 +3,7 @@ package time_of_operation;
 import java.util.ArrayList;
 
 public class ArrayListProcessor {
-    ArrayListProcessor arrayListProcessor;
+
     long differenceOfTime;
 
     public long timeOfAddFirstToArrayList(ArrayList<Integer> list) {
