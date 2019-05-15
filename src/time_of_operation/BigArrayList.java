@@ -2,9 +2,8 @@ package time_of_operation;
 
 import java.util.ArrayList;
 
-public class BigArrayList implements CollectionProcessor {
+public class BigArrayList {
     BigArrayList b;
-    ArrayListBig arrayListBig;
     long differenceOfTime;
 
 //    @Override
@@ -17,14 +16,11 @@ public class BigArrayList implements CollectionProcessor {
 //        System.out.println("Size of collection 'numbers': " + numbers.size() + " elements.");
 //    }
 
-    ArrayList<Integer> list = arrayListBig.createCollection();
-
     public void printSize(){
         System.out.println("size of list: " + list.size());
     }
 
-    @Override
-    public long timeOfAddFirst() {
+    public long timeOfAddFirst(ArrayList<Integer> list) {
         long start1 = System.currentTimeMillis();
         list.add(0,1);
         long end1 = System.currentTimeMillis();
