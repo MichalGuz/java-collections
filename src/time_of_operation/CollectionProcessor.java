@@ -1,7 +1,7 @@
 package time_of_operation;
 
 public interface CollectionProcessor {
-    void createCollection();
+   // void createCollection();
 
     long timeOfAddFirst();
 

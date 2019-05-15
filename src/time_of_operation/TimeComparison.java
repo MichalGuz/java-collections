@@ -4,7 +4,7 @@ public class TimeComparison {
     public static void main(String[] args) {
 
         BigArrayList list = new BigArrayList();
-        list.createCollection();
+    //    list.createCollection();
         list.timeOfAddFirst();
         list.timeOfAddLast();
         list.timeOfRemoveFirst();
