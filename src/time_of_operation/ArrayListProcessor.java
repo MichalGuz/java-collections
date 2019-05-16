@@ -33,6 +33,4 @@ public class ArrayListProcessor {
         long end4 = System.currentTimeMillis();
         return differenceOfTime = end4 - start4;
     }
-
-
 }
