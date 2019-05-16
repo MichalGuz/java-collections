@@ -9,6 +9,6 @@ public class ArrayListPrintTime {
         System.out.println("Time of adding new element at the end of collection containing " + list.size() + " elements: " + arrayListProcessor.timeOfAddLastToArrayList(list) + "[ms];");
         System.out.println("Time of removing an item from the beginning of collection containing " + list.size() + " elements: "  + arrayListProcessor.timeOfRemoveFirstFromArrayList(list) + "[ms];");
         System.out.println("Time of removing an item from the end of collection containing " + list.size() + " elements: " + arrayListProcessor.timeOfRemoveLastFromArrayList(list) + "[ms];");
-    }
+        System.out.println("After all operations ArrayList contains: " + list.size() + " elements.");}
 
 }
