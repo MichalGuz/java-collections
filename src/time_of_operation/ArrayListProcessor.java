@@ -33,4 +33,12 @@ public class ArrayListProcessor {
         long end4 = System.currentTimeMillis();
         return differenceOfTime = end4 - start4;
     }
+
+    public long timeOfGetFromMiddleOfArrayList(ArrayList<Integer> list) {
+        long start5 = System.currentTimeMillis();
+        list.get((list.size() / 2));
+        long end5 = System.currentTimeMillis();
+        return differenceOfTime = end5 - start5;
+    }
+
 }
