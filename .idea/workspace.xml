@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/time_of_operation/LinkedListProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/time_of_operation/ArrayListProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/ArrayListProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/time_of_operation/TimeOfOperation.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/LinkedListProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -31,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListPrintTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -39,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="374">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -61,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lists/Application" />
         <option value="$PROJECT_DIR$/src/lists/LastRemoved.java" />
         <option value="$PROJECT_DIR$/src/table_average/Average.java" />
         <option value="$PROJECT_DIR$/src/lists/Incomes.java" />
@@ -112,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/ArrayListPrintTime.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/ArrayListProcessor.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/LinkedListProcessor.java" />
       </list>
     </option>
   </component>
@@ -149,12 +157,6 @@
               <item name="java-collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-collections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-collections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="list_as_parameter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-collections" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +321,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24433658" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24838188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,9 +382,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wrapper/SimpleWrapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lists_cars/Cars" />
     <entry file="file://$PROJECT_DIR$/src/lists/Application" />
     <entry file="file://$PROJECT_DIR$/src/table_average/Average.java">
@@ -705,13 +704,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListBig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListBig.java" />
     <entry file="file://$PROJECT_DIR$/src/list_as_parameter/OddEliminator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -719,13 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/CollectionProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/CollectionProcessor.java" />
     <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -733,20 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeOfOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeOfOperation.java" />
     <entry file="file://$PROJECT_DIR$/src/list_as_parameter/ListAsParameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -760,14 +734,28 @@
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListPrintTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/LinkedListProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
