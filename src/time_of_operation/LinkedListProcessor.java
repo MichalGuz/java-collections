@@ -14,5 +14,11 @@ public class LinkedListProcessor {
         return differenceOfTime = end1 - start1;
     }
 
+    public long timeOfAddLastToLinkedList(LinkedList<Integer> linkedList){
+        long start2 = System.currentTimeMillis();
+        linkedList.add((linkedList.size() - 1));
+        long end2 = System.currentTimeMillis();
+        return differenceOfTime = end2 - start2;
+    }
 
 }
