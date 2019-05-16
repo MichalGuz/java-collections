@@ -10,13 +10,12 @@ public class TimeComparison {
             numbers.add(i);
         }
 
-        ArrayListProcessor processor = new ArrayListProcessor();
-        processor.timeOfAddFirstToArrayList(numbers);
-        processor.timeOfAddLastToArrayList(numbers);
-        processor.timeOfRemoveFirstFromArrayList(numbers);
-        processor.timeOfRemoveLastFromArrayList(numbers);
-
         ArrayListProcessor arrayListProcessor = new ArrayListProcessor();
+//        ArrayListProcessor processor = new ArrayListProcessor();
+        arrayListProcessor.timeOfAddFirstToArrayList(numbers);
+        arrayListProcessor.timeOfAddLastToArrayList(numbers);
+        arrayListProcessor.timeOfRemoveFirstFromArrayList(numbers);
+        arrayListProcessor.timeOfRemoveLastFromArrayList(numbers);
 
         ArrayListPrintTime arrayListPrintTime = new ArrayListPrintTime();
         arrayListPrintTime.printArrayList(arrayListProcessor,numbers);
@@ -28,16 +27,22 @@ public class TimeComparison {
 
         System.out.println("\n");
 
-        processor.timeOfAddFirstToArrayList(numbers2);
-        processor.timeOfAddLastToArrayList(numbers2);
-        processor.timeOfRemoveFirstFromArrayList(numbers2);
-        processor.timeOfRemoveLastFromArrayList(numbers2);
+        arrayListProcessor.timeOfAddFirstToArrayList(numbers2);
+        arrayListProcessor.timeOfAddLastToArrayList(numbers2);
+        arrayListProcessor.timeOfRemoveFirstFromArrayList(numbers2);
+        arrayListProcessor.timeOfRemoveLastFromArrayList(numbers2);
 
         arrayListPrintTime.printArrayList(arrayListProcessor,numbers2);
 
-        LinkedList<Integer> bigLinkedList = new LinkedList<>();
-        for (int i = 0; i < 1000000; i++ ) {
-            bigLinkedList.add(i);
-        }
+//        LinkedList<Integer> bigLinkedList = new LinkedList<>();
+//        for (int i = 0; i < 1000000; i++ ) {
+//            bigLinkedList.add(i);
+//        }
+//
+//        LinkedListProcessor linkedListProcessor = new LinkedListProcessor();
+//
+//        System.out.println("\n");
+//
+
     }
 }
