@@ -11,7 +11,6 @@ public class TimeComparison {
         }
 
         ArrayListProcessor arrayListProcessor = new ArrayListProcessor();
-//        ArrayListProcessor processor = new ArrayListProcessor();
         arrayListProcessor.timeOfAddFirstToArrayList(numbers);
         arrayListProcessor.timeOfAddLastToArrayList(numbers);
         arrayListProcessor.timeOfRemoveFirstFromArrayList(numbers);
