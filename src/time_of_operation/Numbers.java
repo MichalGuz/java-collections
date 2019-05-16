@@ -14,4 +14,9 @@ public class Numbers {
         final Numbers n = (Numbers) o;
         return this.number.equals(n.number) && this.parameter.equals(n.parameter);
     }
+
+    @Override
+    public int hashCode() {
+        return number / 100;
+    }
 }
