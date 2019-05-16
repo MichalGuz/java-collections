@@ -28,4 +28,11 @@ public class LinkedListProcessor {
         return differenceOfTime = end3 - start3;
     }
 
+    public long timeOfRemoveLastFromLinkedList(LinkedList<Integer> linkedList){
+        long start4 = System.currentTimeMillis();
+        linkedList.remove((linkedList.size() - 1));
+        long end4 = System.currentTimeMillis();
+        return differenceOfTime = end4 - start4;
+    }
+
 }
