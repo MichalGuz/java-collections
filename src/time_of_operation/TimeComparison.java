@@ -15,6 +15,7 @@ public class TimeComparison {
         arrayListProcessor.timeOfAddLastToArrayList(numbers);
         arrayListProcessor.timeOfRemoveFirstFromArrayList(numbers);
         arrayListProcessor.timeOfRemoveLastFromArrayList(numbers);
+        arrayListProcessor.timeOfGetFromMiddleOfArrayList(numbers);
 
         ArrayListPrintTime arrayListPrintTime = new ArrayListPrintTime();
         arrayListPrintTime.printArrayList(arrayListProcessor,numbers);
@@ -30,6 +31,7 @@ public class TimeComparison {
         arrayListProcessor.timeOfAddLastToArrayList(numbers2);
         arrayListProcessor.timeOfRemoveFirstFromArrayList(numbers2);
         arrayListProcessor.timeOfRemoveLastFromArrayList(numbers2);
+        arrayListProcessor.timeOfGetFromMiddleOfArrayList(numbers2);
 
         arrayListPrintTime.printArrayList(arrayListProcessor,numbers2);
 
@@ -47,11 +49,8 @@ public class TimeComparison {
         linkedListProcessor.timeOfAddLastToLinkedList(bigLinkedList);
         linkedListProcessor.timeOfRemoveFirstFromLinkedList(bigLinkedList);
         linkedListProcessor.timeOfRemoveLastFromLinkedList(bigLinkedList);
-
+        linkedListProcessor.timeOfGetFromMiddleOfLinkedList(bigLinkedList);
         LinkedListPrintTime linkedListPrintTime = new LinkedListPrintTime();
         linkedListPrintTime.printLinkedListTime(linkedListProcessor, bigLinkedList);
-
-
-
     }
 }
