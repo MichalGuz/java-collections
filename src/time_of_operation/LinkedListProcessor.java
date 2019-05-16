@@ -34,4 +34,11 @@ public class LinkedListProcessor {
         long end4 = System.nanoTime();
         return differenceOfTime = end4 - start4;
     }
+
+    public long timeOfGetFromMiddleOfLinkedList(LinkedList<Integer> linkedList) {
+        long start5 = System.nanoTime();
+        linkedList.get((linkedList.size() / 2));
+        long end5 = System.nanoTime();
+        return differenceOfTime = end5 - start5;
+    }
 }
