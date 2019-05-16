@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_of_operation/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/Numbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
@@ -60,6 +60,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/Numbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -90,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/table_average/Average.java" />
         <option value="$PROJECT_DIR$/src/lists/Incomes.java" />
         <option value="$PROJECT_DIR$/src/lists/Application.java" />
         <option value="$PROJECT_DIR$/src/equals_object/NetUser.java" />
@@ -141,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/LinkedListProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/LinkedListPrintTime.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/Numbers.java" />
       </list>
     </option>
   </component>
@@ -341,6 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.24838188" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
@@ -351,12 +361,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32961783" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.22826087" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
@@ -403,7 +413,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lists/Application" />
     <entry file="file://$PROJECT_DIR$/src/table_average/Average.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -786,6 +795,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>

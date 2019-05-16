@@ -8,4 +8,10 @@ public class Numbers {
         this.number = number;
         this.parameter = parameter;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        final Numbers n = (Numbers) o;
+        return this.number.equals(n.number) && this.parameter.equals(n.parameter);
+    }
 }
