@@ -8,6 +8,8 @@ public class LettersArrayDeque {
         ArrayDeque<Letters> letters = new ArrayDeque();
         String one = "A";
 
+        int counterLoops = 0;
+
         for (int p = 0; p < 50; p++) {
 
             Random generator = new Random();
@@ -17,6 +19,12 @@ public class LettersArrayDeque {
 
             for (int i = 0; i < x; i++) {
                 newA += one;
+
+                // checking how many times the loop has been run
+                // counterLoops++;
+
+                // checking value of random number
+                // System.out.printf("X =" + x);
             }
         }
     }
