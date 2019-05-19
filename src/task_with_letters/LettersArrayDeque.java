@@ -14,6 +14,9 @@ public class LettersArrayDeque {
             int x = generator.nextInt(50);
 
             String newA = "";
+
+            for (int i = 0; i < x; i++) {
+            }
         }
     }
 }
