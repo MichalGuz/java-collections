@@ -28,6 +28,12 @@ public class LettersArrayDeque {
             }
 
             letters.offer(new Letters(p, newA));
+
+            // printing how many times the loop has been run
+            // System.out.println("\nHow many loops have been run? [" + counterLoops + "]");
+
+            // printing value of random number
+            // System.out.println(newA);
         }
     }
 }
