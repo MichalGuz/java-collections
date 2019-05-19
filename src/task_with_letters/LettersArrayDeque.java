@@ -13,6 +13,7 @@ public class LettersArrayDeque {
             Random generator = new Random();
             int x = generator.nextInt(50);
 
+            String newA = "";
         }
     }
 }
