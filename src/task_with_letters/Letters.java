@@ -11,4 +11,9 @@ public class Letters {
     public String getLetter() {
         return letter;
     }
+
+    public Letters(Integer number, String letter) {
+        this.number = number;
+        this.letter = letter;
+    }
 }
