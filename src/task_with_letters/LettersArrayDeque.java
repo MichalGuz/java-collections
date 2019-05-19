@@ -16,6 +16,7 @@ public class LettersArrayDeque {
             String newA = "";
 
             for (int i = 0; i < x; i++) {
+                newA += one;
             }
         }
     }
