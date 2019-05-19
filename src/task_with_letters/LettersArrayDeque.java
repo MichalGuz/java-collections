@@ -35,5 +35,9 @@ public class LettersArrayDeque {
             // printing value of random number
             // System.out.println(newA);
         }
+
+        for (Letters d : letters) {
+            System.out.println("[" + d.getNumber() + "] " + d.getLetter());
+        }
     }
 }
