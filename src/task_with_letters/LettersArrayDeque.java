@@ -26,6 +26,8 @@ public class LettersArrayDeque {
                 // checking value of random number
                 // System.out.printf("X =" + x);
             }
+
+            letters.offer(new Letters(p, newA));
         }
     }
 }
