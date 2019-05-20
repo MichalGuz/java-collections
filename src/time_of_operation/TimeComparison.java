@@ -9,6 +9,8 @@ public class TimeComparison {
         LinkedListCreator linkedListCreator = new LinkedListCreator();
         linkedListCreator.linkedListCreate();
 
+        HashMapCreator hashMapCreator = new HashMapCreator();
+        hashMapCreator.hashMapCreate();
 
     }
 }

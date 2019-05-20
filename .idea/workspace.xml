@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="e#149#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,12 +155,12 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumbersProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/Number.java" />
-        <option value="$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberCreator.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java" />
       </list>
     </option>
   </component>
@@ -350,7 +361,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.27669904" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
@@ -749,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="4" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -786,8 +789,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#149#166#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
