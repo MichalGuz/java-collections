@@ -8,5 +8,7 @@ public class TimeComparison {
 
         LinkedListCreator linkedListCreator = new LinkedListCreator();
         linkedListCreator.linkedListCreate();
+
+
     }
 }
