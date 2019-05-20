@@ -35,7 +35,7 @@ public class TimeComparison {
 
         arrayListPrintTime.printArrayList(arrayListProcessor,numbers2);
 
-
-
+        LinkedListCreator linkedListCreator = new LinkedListCreator();
+        linkedListCreator.linkedListCreate();
     }
 }
