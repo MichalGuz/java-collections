@@ -10,6 +10,7 @@ public class HashMapNumberCreator {
 
         String value = "text";
 
+        //create collection with objects Number and overriden hashCode()
         for (int i = 1; i < 1000000; i++) {
             bigHashMapNumber.put(new Number(i, i), value + i);
         }
