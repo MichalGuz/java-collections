@@ -13,3 +13,4 @@ public class HashMapNumberPrintTime {
         System.out.println("After all operations HashMap contains: " + hashMap.size() + " elements.");
 
     }
+}
