@@ -3,7 +3,6 @@ package time_of_operation;
 import java.util.LinkedList;
 
 public class LinkedListProcessor {
-    LinkedListProcessor linkedListProcessor;
 
     long differenceOfTime;
 
