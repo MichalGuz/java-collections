@@ -12,5 +12,8 @@ public class TimeComparison {
         HashMapCreator hashMapCreator = new HashMapCreator();
         hashMapCreator.hashMapCreate();
 
+        HashMapNumberCreator hashMapNumberCreator = new HashMapNumberCreator();
+        hashMapNumberCreator.hashMapWithNewBusketsCreate();
+
     }
 }
