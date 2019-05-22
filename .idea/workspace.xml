@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapIntegerPrintTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapIntegerPrintTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapIntegerProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapIntegerProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapNumberCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapNumberCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapNumberPrintTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapNumberPrintTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapNumberProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/HashMapNumberProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/TimeComparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/time_of_operation/TimeComparison.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="364">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -40,17 +44,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="99" lean-forward="true" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -131,9 +135,9 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberCreator.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
-        <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java" />
-        <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java" />
       </list>
     </option>
   </component>
@@ -334,9 +338,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2815534" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2815534" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,12 +348,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6164596" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.22826087" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
@@ -760,24 +763,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="204">
+          <caret line="12" column="99" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="99" lean-forward="true" selection-start-line="12" selection-start-column="99" selection-end-line="12" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java">
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="364">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
         </state>
       </provider>
     </entry>

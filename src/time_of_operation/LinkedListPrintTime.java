@@ -10,6 +10,6 @@ public class LinkedListPrintTime {
         System.out.println("Time of removing an item from the beginning of collection containing " + linkedList.size() + " elements: "  + linkedListProcessor.timeOfRemoveFirstFromLinkedList(linkedList) + "[ns];");
         System.out.println("Time of removing an item from the end of collection containing " + linkedList.size() + " elements: " + linkedListProcessor.timeOfRemoveLastFromLinkedList(linkedList) + "[ns];");
         System.out.println("Time of getting an item from the middle of collection containing " + linkedList.size() + " elements:" + linkedListProcessor.timeOfGetFromMiddleOfLinkedList(linkedList));
-        System.out.println("After all operations LinkedList contains: " + linkedList.size() + " elements.");
+        System.out.println("After all operations LinkedList contains: " + linkedList.size() + " elements.\n");
     }
 }

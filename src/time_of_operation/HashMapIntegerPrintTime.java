@@ -10,7 +10,7 @@ public class HashMapIntegerPrintTime {
         System.out.println("Time of removing an item with index 0 from the collection containing " + hashMap.size() + " elements: "  + hashMapIntegerProcessor.timeOfRemoveOneItemFromHashMapInteger(hashMap) + "[ns];");
         System.out.println("Time of removing an item with the highest index in the collection containing " + hashMap.size() + " elements: " + hashMapIntegerProcessor.timeOfRemoveAnotherItemFromHashMapInteger(hashMap) + "[ns];");
         System.out.println("Time of getting an item with index equals a half size of the collection containing " + hashMap.size() + " elements:" + hashMapIntegerProcessor.timeOfGetAnotherItemFromHashMapInteger(hashMap));
-        System.out.println("After all operations HashMap contains: " + hashMap.size() + " elements.");
+        System.out.println("After all operations HashMap contains: " + hashMap.size() + " elements.\n");
     }
 }
 

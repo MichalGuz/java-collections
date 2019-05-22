@@ -10,5 +10,5 @@ public class ArrayListPrintTime {
         System.out.println("Time of removing an item from the beginning of collection containing " + list.size() + " elements: "  + arrayListProcessor.timeOfRemoveFirstFromArrayList(list) + " [ns];");
         System.out.println("Time of removing an item from the end of collection containing " + list.size() + " elements: " + arrayListProcessor.timeOfRemoveLastFromArrayList(list) + " [ns];");
         System.out.println("Time of getting an item from the middle of collection containing " + list.size() + " elements:" + arrayListProcessor.timeOfGetFromMiddleOfArrayList(list) + " [ns]");
-        System.out.println("After all operations ArrayList contains: " + list.size() + " elements.");}
+        System.out.println("After all operations ArrayList contains: " + list.size() + " elements.\n");}
 }
