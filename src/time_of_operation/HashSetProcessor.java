@@ -1,5 +1,7 @@
 package time_of_operation;
 
+import queue_stack_clipboard.Item;
+
 import java.util.HashSet;
 
 public class HashSetProcessor {
@@ -21,6 +23,7 @@ public class HashSetProcessor {
 
     public long timeOfRemoveOneItemFromHashSet(HashSet<ItemForSet> hashSet) {
         ItemForSet item = new ItemForSet(0);
+        hashSet.add(item);
         long start1 = System.nanoTime();
         hashSet.remove(item);
         long end1 = System.nanoTime();
@@ -29,10 +32,14 @@ public class HashSetProcessor {
 
     public long timeOfRemoveAnotherItemFromHashSet(HashSet<ItemForSet> hashSet) {
         ItemForSet anotherItem = new ItemForSet(1000000);
+        hashSet.add(anotherItem);
         long start1 = System.nanoTime();
         hashSet.remove(anotherItem);
         long end1 = System.nanoTime();
         return differenceOfTime = end1 - start1;
     }
 
+    public long timeOfCheckIfHashSetContains(HashSet<ItemForSet> hashSet){
+
+    }
 }
