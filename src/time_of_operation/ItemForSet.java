@@ -12,4 +12,10 @@ public class ItemForSet {
         final ItemForSet i = (ItemForSet) o;
         return this.item.equals(i.item);
     }
+
+    @Override
+    public int hashCode(){
+        return  item / 1000;
+    }
+
 }
