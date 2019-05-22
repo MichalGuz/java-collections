@@ -24,22 +24,26 @@ public class HashSetProcessor {
     public long timeOfRemoveOneItemFromHashSet(HashSet<ItemForSet> hashSet) {
         ItemForSet item = new ItemForSet(0);
         hashSet.add(item);
-        long start1 = System.nanoTime();
+        long start3 = System.nanoTime();
         hashSet.remove(item);
-        long end1 = System.nanoTime();
-        return differenceOfTime = end1 - start1;
+        long end3 = System.nanoTime();
+        return differenceOfTime = end3 - start3;
     }
 
     public long timeOfRemoveAnotherItemFromHashSet(HashSet<ItemForSet> hashSet) {
         ItemForSet anotherItem = new ItemForSet(1000000);
         hashSet.add(anotherItem);
-        long start1 = System.nanoTime();
+        long start4 = System.nanoTime();
         hashSet.remove(anotherItem);
-        long end1 = System.nanoTime();
-        return differenceOfTime = end1 - start1;
+        long end4 = System.nanoTime();
+        return differenceOfTime = end4 - start4;
     }
 
     public long timeOfCheckIfHashSetContains(HashSet<ItemForSet> hashSet){
-
+        ItemForSet someItem = new ItemForSet(500000);
+        long start5 = System.nanoTime();
+        hashSet.contains(someItem);
+        long end5 = System.nanoTime();
+        return differenceOfTime = end5 - start5;
     }
 }
