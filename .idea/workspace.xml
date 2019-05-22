@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,26 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/time_of_operation/ItemForSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -61,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="415">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -166,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberCreator.java" />
-        <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapNumberPrintTime.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashMapIntegerPrintTime.java" />
@@ -176,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/ItemForSet.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
       </list>
     </option>
   </component>
@@ -376,6 +361,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2815534" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
@@ -712,30 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/ItemForSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,8 +752,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="415">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/ItemForSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
