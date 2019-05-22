@@ -21,22 +21,25 @@ public class HashMapNumberProcessor {
     }
 
     public long timeOfRemoveOneItemFromHashMapNumber(HashMap<Number,String> hashMap){
+        Number number = new Number(0,0);
         long start3 = System.nanoTime();
-        hashMap.remove(0);
+        hashMap.remove(number);
         long end3 = System.nanoTime();
         return differenceOfTime = end3 - start3;
     }
 
     public long timeOfRemoveAnotherItemFromHashMapNumber(HashMap<Number,String> hashMap){
+        Number bigNumber = new Number(1000001, 1000001);
         long start4 = System.nanoTime();
-        hashMap.remove((hashMap.size() - 1));
+        hashMap.remove(bigNumber);
         long end4 = System.nanoTime();
         return differenceOfTime = end4 - start4;
     }
 
     public long timeOfGetAnotherItemFromHashMapNumber(HashMap<Number, String> hashMap){
+        Number another = new Number(500000, 500000);
         long start5 = System.nanoTime();
-        hashMap.get((hashMap.size()/2));
+        hashMap.get(another);
         long end5 = System.nanoTime();
         return differenceOfTime = end5 - start5;
     }
