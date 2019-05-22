@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,19 +54,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/time_of_operation/LinkedListPrintTime.java">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="4" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="156" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="156" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -99,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/queue_stack_clipboard/Item.java" />
         <option value="$PROJECT_DIR$/src/queue_stack_clipboard/CutCopy.java" />
         <option value="$PROJECT_DIR$/src/queue_stack_clipboard/Processor.java" />
         <option value="$PROJECT_DIR$/src/loop_while/Members.java" />
@@ -150,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/HashSetProcessor.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/ItemForSet.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java" />
+        <option value="$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java" />
       </list>
     </option>
   </component>
@@ -366,34 +393,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.22826087" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.2815534" />
-      <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6164596" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -406,7 +405,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,13 +424,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/loop_while/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/loop_while_log_in/RandomDisplay.java" />
     <entry file="file://$PROJECT_DIR$/src/lists/Incomes.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -638,9 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListCreator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/LinkedListProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -676,16 +665,6 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="e#149#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,23 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/ItemForSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -788,8 +750,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="156" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="156" />
+        <state relative-caret-position="204">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapIntegerProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashMapCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/time_of_operation/HashSetCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
