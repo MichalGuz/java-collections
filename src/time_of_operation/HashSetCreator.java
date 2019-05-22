@@ -25,5 +25,13 @@ public class HashSetCreator {
         for (int i = 0; i < 1000000; i++) {
             big.add(new ItemForSet(i));
         }
+
+        hashSetProcessor.timeOfAddOneItemToHashSet(big);
+        hashSetProcessor.timeOfAddAnotherItemToHashSet(big);
+        hashSetProcessor.timeOfRemoveOneItemFromHashSet(big);
+        hashSetProcessor.timeOfRemoveAnotherItemFromHashSet(big);
+        hashSetProcessor.timeOfCheckIfHashSetContains(big);
+
+        hashSetPrintTime.printHashSetTime(hashSetProcessor, big);
     }
 }
