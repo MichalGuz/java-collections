@@ -21,7 +21,9 @@ public class HashSetCreator {
 
         hashSetPrintTime.printHashSetTime(hashSetProcessor, items);
 
-
-
+        HashSet<ItemForSet> big = new HashSet<>();
+        for (int i = 0; i < 1000000; i++) {
+            big.add(new ItemForSet(i));
+        }
     }
 }
