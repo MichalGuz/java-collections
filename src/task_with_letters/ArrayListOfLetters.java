@@ -8,4 +8,14 @@ public class ArrayListOfLetters {
     ArrayList<Letters> even = new ArrayList<>();
     ArrayList<Letters> odd = new ArrayList<>();
 
+    public void filterLetters(ArrayDeque<Letters> letters) {
+        for (Letters iter : letters) {
+            Letters x = letters.pollFirst();
+            if ((letters.pollFirst().getLetter().length() % 2) == 0) {
+                even.add(x);
+            } else {
+                odd.add(x);
+            }
+        }
+    }
 }
