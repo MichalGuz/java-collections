@@ -41,5 +41,8 @@ public class LettersArrayDeque {
         }
 
         System.out.println("Size of collection letters = " + letters.size() + " items.");
+
+        ArrayListOfLetters arrayListOfLetters = new ArrayListOfLetters();
+        arrayListOfLetters.filterLetters(letters);
     }
 }
