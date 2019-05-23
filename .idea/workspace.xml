@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_with_letters/lettersApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +19,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="367">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/task_with_letters/lettersApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -43,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -83,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/loop_while/Members.java" />
         <option value="$PROJECT_DIR$/src/loop_while/Member.java" />
         <option value="$PROJECT_DIR$/src/loop_while/ApplicationHashSet.java" />
         <option value="$PROJECT_DIR$/src/loop_while_log_in/RandomDisplay.java" />
@@ -131,13 +139,14 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/TimeComparison.java" />
         <option value="$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java" />
         <option value="$PROJECT_DIR$/src/task_with_letters/Letters.java" />
-        <option value="$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java" />
         <option value="$PROJECT_DIR$/src/task_with_letters/LettersAplication.java" />
         <option value="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" />
+        <option value="$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/task_with_letters/lettersApplication.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="425" />
@@ -328,6 +337,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.28640777" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
@@ -402,13 +412,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lists/ApplicationForLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/loop_while_log_in/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -743,16 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/task_with_letters/Letters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -773,6 +766,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task_with_letters/lettersApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
