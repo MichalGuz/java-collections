@@ -8,7 +8,7 @@ public class LettersArrayDeque {
         ArrayDeque<Letters> letters = new ArrayDeque();
         String one = "A";
 
-        int counterLoops = 0;
+        // int counterLoops = 0;
 
         for (int p = 0; p < 50; p++) {
 
