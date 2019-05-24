@@ -23,6 +23,9 @@ public class ArrayListOfLetters {
         for (int i = 0; i < even.size(); i++){
             System.out.println("[Numbers of letter A: " + even.get(i).getLetter().length() + "] " + even.get(i).getLetter());
         }
-        System.out.println("Odd:" + odd);
+        System.out.println("\nOdd:");
+        for (int i = 0; i < odd.size(); i++){
+            System.out.println("[Numbers of letter A: " + odd.get(i).getLetter().length() + "] " + odd.get(i).getLetter());
+        }
     }
 }
