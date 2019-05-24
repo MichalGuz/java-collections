@@ -11,7 +11,7 @@ public class ArrayListOfLetters {
     public void filterLetters(ArrayDeque<Letters> letters) {
         for (Letters iter : letters) {
             Letters x = letters.pollFirst();
-            if ((letters.pollFirst().getLetter().length() % 2) == 0) {
+            if ((x.getLetter().length() % 2) == 0) {
                 even.add(x);
             } else {
                 odd.add(x);
