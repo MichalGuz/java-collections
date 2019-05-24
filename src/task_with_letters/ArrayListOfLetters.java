@@ -9,12 +9,12 @@ public class ArrayListOfLetters {
     ArrayList<Letters> odd = new ArrayList<>();
 
     public void filterLetters(ArrayDeque<Letters> letters) {
-        for (Letters iter : letters) {
-            Letters x = letters.pollFirst();
-            if ((x.getLetter().length() % 2) == 0) {
-                even.add(x);
+        while(letters.size()>0) {
+            Letters letter = letters.poll();
+            if ((letter.getLetter().length() % 2) == 0) {
+                even.add(letter);
             } else {
-                odd.add(x);
+                odd.add(letter);
             }
         }
         System.out.println("Collection ArrayList of even contains " + even.size() + " elements.\nCollection ArrayList of odd contains " + odd.size() + " elements\n");
