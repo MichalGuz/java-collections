@@ -18,7 +18,11 @@ public class ArrayListOfLetters {
             }
         }
         System.out.println("Collection ArrayList of even contains " + even.size() + " elements.\nCollection ArrayList of odd contains " + odd.size() + " elements\n");
-        System.out.println("Even: " + even);
+
+        System.out.println("Even:");
+        for (int i = 0; i < even.size(); i++){
+            System.out.println("[Numbers of letter A: " + even.get(i).getLetter().length() + "] " + even.get(i).getLetter());
+        }
         System.out.println("Odd:" + odd);
     }
 }
