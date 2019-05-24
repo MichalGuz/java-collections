@@ -17,11 +17,8 @@ public class ArrayListOfLetters {
                 odd.add(x);
             }
         }
-
         System.out.println("Collection ArrayList of even contains " + even.size() + " elements.\nCollection ArrayList of odd contains " + odd.size() + " elements\n");
         System.out.println("Even: " + even);
         System.out.println("Odd:" + odd);
     }
-
-
 }

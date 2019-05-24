@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5904204-2787-4ee9-809c-edbebb171d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/task_with_letters/lettersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/task_with_letters/ArrayListOfLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/task_with_letters/ArrayListOfLetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/task_with_letters/LettersAplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collections/task_with_letters/LettersArrayDeque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-collections/task_with_letters/LettersArrayDeque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_with_letters/lettersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_with_letters/LettersApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/task_with_letters/lettersApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -53,10 +59,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="282">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="18" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,13 +155,13 @@
         <option value="$PROJECT_DIR$/src/time_of_operation/HashSetPrintTime.java" />
         <option value="$PROJECT_DIR$/src/task_with_letters/Letters.java" />
         <option value="$PROJECT_DIR$/src/task_with_letters/LettersAplication.java" />
-        <option value="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" />
-        <option value="$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java" />
         <option value="$PROJECT_DIR$/src/task_with_letters/lettersApplication.java" />
+        <option value="$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="425" />
@@ -157,6 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,8 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LettersAplication">
+  <component name="RunManager" selected="Application.LettersApplication">
     <configuration name="DuplicateDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loop_while_duplicates.DuplicateDetector" />
       <module name="java-collections" />
@@ -245,13 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueOfCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="transfer_between_collections.QueueOfCalls" />
+    <configuration name="LettersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_with_letters.LettersApplication" />
       <module name="java-collections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="transfer_between_collections.*" />
+          <option name="PATTERN" value="task_with_letters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LettersApplication" />
         <item itemvalue="Application.LettersAplication" />
         <item itemvalue="Application.TimeComparison" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DuplicateDetector" />
-        <item itemvalue="Application.QueueOfCalls" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +354,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.28640777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.29449838" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,12 +363,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6164596" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.22826087" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.22826087" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
@@ -367,7 +382,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.28640777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.29449838" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.24838188" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +396,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" visible="true" weight="0.22826087" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4975728" weight="0.22826087" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.22826087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
@@ -444,16 +459,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeDifferences.java" />
-    <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayTest.java" />
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/ArrayListBig.java" />
     <entry file="file://$PROJECT_DIR$/src/list_as_parameter/OddEliminator.java">
@@ -464,13 +469,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/CollectionProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/time_of_operation/TimeOfOperation.java" />
     <entry file="file://$PROJECT_DIR$/src/list_as_parameter/ListAsParameter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -739,10 +737,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersAplication.java">
+    <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersAplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/MyObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loop_while_duplicates/DuplicateDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,30 +768,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java">
+    <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/task_with_letters/LettersArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task_with_letters/lettersApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/task_with_letters/ArrayListOfLetters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="282">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
